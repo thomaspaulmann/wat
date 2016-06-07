@@ -153,6 +153,24 @@
 			name = ThirdParty;
 			sourceTree = "<group>";
 		};
+		BE0749211D070F7900C74E8C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
+				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BE0749221D070F8000C74E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE865A51D06FDB300AB4240 /* Assets.xcassets */,
+				BEE865AA1D06FDB300AB4240 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		BEE865921D06FDB300AB4240 = {
 			isa = PBXGroup;
 			children = (
@@ -175,11 +193,9 @@
 			children = (
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
 				BEE865A01D06FDB300AB4240 /* ViewController.swift */,
-				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
-				BEE865A51D06FDB300AB4240 /* Assets.xcassets */,
-				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
-				BEE865AA1D06FDB300AB4240 /* Info.plist */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
+				BE0749211D070F7900C74E8C /* Storyboards */,
+				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
