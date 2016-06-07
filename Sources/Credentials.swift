@@ -6,4 +6,9 @@
 //  Copyright © 2016 Thomas Paul Mann. All rights reserved.
 //
 
-import Foundation
+struct Credentials {
+
+    static let username = "your-username-here"
+    static let password = "your-password-here"
+    
+}
