@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE02DD2E1D08A0730079075A /* ToneAnalyzerViewController.swift */; };
 		BE0748FE1D07060200C74E8C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0748EF1D07060200C74E8C /* Alamofire.framework */; };
 		BE0748FF1D07060200C74E8C /* AlchemyLanguageV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */; };
 		BE0749001D07060200C74E8C /* AlchemyVisionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */; };
@@ -40,6 +41,8 @@
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */; };
+		BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */; };
+		BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
 		BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */; };
 		BEE865A41D06FDB300AB4240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE865A21D06FDB300AB4240 /* Main.storyboard */; };
@@ -75,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE02DD2E1D08A0730079075A /* ToneAnalyzerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneAnalyzerViewController.swift; sourceTree = "<group>"; };
 		BE0748EF1D07060200C74E8C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyLanguageV1.framework; path = Carthage/Build/iOS/AlchemyLanguageV1.framework; sourceTree = "<group>"; };
 		BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyVisionV1.framework; path = Carthage/Build/iOS/AlchemyVisionV1.framework; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		BEAB3E481D08A13100E6C40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlchemyLanguage.storyboard; sourceTree = "<group>"; };
+		BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToneAnalyzer.storyboard; sourceTree = "<group>"; };
 		BEE8659B1D06FDB300AB4240 /* Wat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemyLanguageViewController.swift; sourceTree = "<group>"; };
@@ -160,10 +166,30 @@
 		BE0749221D070F8000C74E8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
+				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
 				BEE865A51D06FDB300AB4240 /* Assets.xcassets */,
 				BEE865AA1D06FDB300AB4240 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEAB3E4A1D08A14000E6C40F /* Alchemy Language */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */,
+				BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */,
+			);
+			name = "Alchemy Language";
+			sourceTree = "<group>";
+		};
+		BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */,
+				BE02DD2E1D08A0730079075A /* ToneAnalyzerViewController.swift */,
+			);
+			name = "Tone Analyzer";
 			sourceTree = "<group>";
 		};
 		BEE865921D06FDB300AB4240 = {
@@ -187,12 +213,11 @@
 			isa = PBXGroup;
 			children = (
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
-				BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */,
 				BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
-				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
-				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
+				BEAB3E4A1D08A14000E6C40F /* Alchemy Language */,
+				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);
 			path = Sources;
@@ -266,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */,
+				BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */,
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
 				BEE865A41D06FDB300AB4240 /* Main.storyboard in Resources */,
@@ -283,6 +310,7 @@
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,
 				BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */,
+				BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */,
 				BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +318,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAB3E481D08A13100E6C40F /* Base */,
+			);
+			name = AlchemyLanguage.storyboard;
+			sourceTree = "<group>";
+		};
 		BEE865A21D06FDB300AB4240 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
