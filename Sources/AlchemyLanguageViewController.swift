@@ -24,8 +24,15 @@ class AlchemyLanguageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Init Alchemy Language
         alchemyLanguage = AlchemyLanguage(apiKey: Credentials.alchemyApiKey)
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        startObservingKeyboardAppereance()
+    }
+
+    override func viewWillDisappear(animated: Bool) {
+        stopObservingKeyboardAppereance()
     }
 
     // MARK: - Actions

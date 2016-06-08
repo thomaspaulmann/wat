@@ -39,6 +39,7 @@
 		BE07491E1D07067400C74E8C /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
+		BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
 		BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */; };
 		BEE865A41D06FDB300AB4240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE865A21D06FDB300AB4240 /* Main.storyboard */; };
@@ -91,6 +92,7 @@
 		BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		BEE8659B1D06FDB300AB4240 /* Wat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemyLanguageViewController.swift; sourceTree = "<group>"; };
@@ -186,11 +188,12 @@
 			children = (
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
 				BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */,
+				BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */,
+				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
 				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
 				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
-				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,
 				BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */,
