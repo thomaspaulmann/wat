@@ -99,7 +99,7 @@
 		BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		BEAB3E481D08A13100E6C40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlchemyLanguage.storyboard; sourceTree = "<group>"; };
 		BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToneAnalyzer.storyboard; sourceTree = "<group>"; };
-		BEE8659B1D06FDB300AB4240 /* Wat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE8659B1D06FDB300AB4240 /* Wat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlchemyLanguageViewController.swift; sourceTree = "<group>"; };
 		BEE865A31D06FDB300AB4240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		BEE8659C1D06FDB300AB4240 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEE8659B1D06FDB300AB4240 /* Wat-iOS.app */,
+				BEE8659B1D06FDB300AB4240 /* Wat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEE8659A1D06FDB300AB4240 /* Wat-iOS */ = {
+		BEE8659A1D06FDB300AB4240 /* Wat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE865AD1D06FDB300AB4240 /* Build configuration list for PBXNativeTarget "Wat-iOS" */;
+			buildConfigurationList = BEE865AD1D06FDB300AB4240 /* Build configuration list for PBXNativeTarget "Wat" */;
 			buildPhases = (
 				BEE865971D06FDB300AB4240 /* Sources */,
 				BEE865981D06FDB300AB4240 /* Frameworks */,
@@ -248,9 +248,9 @@
 			);
 			dependencies = (
 			);
-			name = "Wat-iOS";
+			name = Wat;
 			productName = "ToneAnalyzer-iOS";
-			productReference = BEE8659B1D06FDB300AB4240 /* Wat-iOS.app */;
+			productReference = BEE8659B1D06FDB300AB4240 /* Wat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,7 +268,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEE865961D06FDB300AB4240 /* Build configuration list for PBXProject "Wat-iOS" */;
+			buildConfigurationList = BEE865961D06FDB300AB4240 /* Build configuration list for PBXProject "Wat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -281,7 +281,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEE8659A1D06FDB300AB4240 /* Wat-iOS */,
+				BEE8659A1D06FDB300AB4240 /* Wat */,
 			);
 		};
 /* End PBXProject section */
@@ -439,7 +439,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wat;
 			};
 			name = Debug;
 		};
@@ -454,14 +454,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wat;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEE865961D06FDB300AB4240 /* Build configuration list for PBXProject "Wat-iOS" */ = {
+		BEE865961D06FDB300AB4240 /* Build configuration list for PBXProject "Wat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE865AB1D06FDB300AB4240 /* Debug */,
@@ -470,7 +470,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE865AD1D06FDB300AB4240 /* Build configuration list for PBXNativeTarget "Wat-iOS" */ = {
+		BEE865AD1D06FDB300AB4240 /* Build configuration list for PBXNativeTarget "Wat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEE865AE1D06FDB300AB4240 /* Debug */,
