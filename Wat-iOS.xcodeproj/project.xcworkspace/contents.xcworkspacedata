@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ToneAnalyzer-iOS.xcodeproj">
+      location = "self:/Users/Mann/Documents/Code/ToneAnalyzer-iOS/Wat-iOS.xcodeproj">
    </FileRef>
 </Workspace>
