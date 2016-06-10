@@ -8,7 +8,7 @@
         <!--Tone Analyzer-->
         <scene sceneID="rsL-go-8Ck">
             <objects>
-                <viewController title="Tone Analyzer" id="M3O-r4-rxU" customClass="ToneAnalyzerViewController" customModule="Wat_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tone Analyzer" id="M3O-r4-rxU" customClass="ToneAnalyzerViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Sg-SM-VAM"/>
                         <viewControllerLayoutGuide type="bottom" id="FCt-vm-39u"/>

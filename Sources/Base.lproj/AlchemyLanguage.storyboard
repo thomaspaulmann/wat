@@ -36,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szR-uP-1Dr" userLabel="Analyze Button">
-                                <rect key="frame" x="270.5" y="565" width="59" height="30"/>
+                                <rect key="frame" x="271" y="565" width="59" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Analyze">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,9 +45,16 @@
                                     <action selector="didPressAnalyzeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXf-iz-s50"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zuq-B8-ajU">
+                                <rect key="frame" x="279" y="72" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Zuq-B8-ajU" firstAttribute="centerX" secondItem="szR-uP-1Dr" secondAttribute="centerX" id="1X0-tA-a6D"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SIL-92-Pcj" secondAttribute="bottom" id="1bn-8w-jFh"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="DXB-gf-Byo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SIL-92-Pcj" secondAttribute="trailing" constant="-20" id="EmD-1e-WpF"/>
@@ -56,6 +63,7 @@
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OTO-Bo-2Xp"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PTr-hC-Pgz"/>
                             <constraint firstItem="SIL-92-Pcj" firstAttribute="top" secondItem="mhR-AP-PXQ" secondAttribute="bottom" constant="8" id="QpF-gI-KRC"/>
+                            <constraint firstItem="Zuq-B8-ajU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="agK-Q9-Tcb"/>
                             <constraint firstItem="szR-uP-1Dr" firstAttribute="centerY" secondItem="SIL-92-Pcj" secondAttribute="centerY" id="bet-u7-oOB"/>
                             <constraint firstItem="szR-uP-1Dr" firstAttribute="centerX" secondItem="SIL-92-Pcj" secondAttribute="centerX" id="f11-rW-KUK"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="onH-AX-QCC"/>
@@ -73,6 +81,7 @@
                         <color key="barTintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                     </simulatedNavigationBarMetrics>
                     <connections>
+                        <outlet property="testLabel" destination="Zuq-B8-ajU" id="YUL-P0-m4c"/>
                         <outlet property="textView" destination="mhR-AP-PXQ" id="Zqg-f8-jTD"/>
                     </connections>
                 </viewController>

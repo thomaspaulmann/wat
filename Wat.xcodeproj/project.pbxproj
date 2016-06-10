@@ -41,6 +41,12 @@
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */; };
+		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
+		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
+		BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */; };
+		BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */; };
+		BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */; };
+		BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */; };
 		BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */; };
 		BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
@@ -97,6 +103,12 @@
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
+		BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertViewManager.swift; sourceTree = "<group>"; };
+		BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertView.swift; sourceTree = "<group>"; };
+		BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILAlertView.xib; sourceTree = "<group>"; };
+		BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILFakeMessageAlertView.xib; sourceTree = "<group>"; };
 		BEAB3E481D08A13100E6C40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlchemyLanguage.storyboard; sourceTree = "<group>"; };
 		BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToneAnalyzer.storyboard; sourceTree = "<group>"; };
 		BEE8659B1D06FDB300AB4240 /* Wat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +186,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE9812AD1D0A8E5D0089F46E /* MILAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BE9812AE1D0A8E5D0089F46E /* LICENSE */,
+				BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */,
+				BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */,
+				BE9812B11D0A8E5D0089F46E /* Views */,
+			);
+			path = MILAlertView;
+			sourceTree = "<group>";
+		};
+		BE9812B11D0A8E5D0089F46E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */,
+				BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */,
+				BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BEAB3E4A1D08A14000E6C40F /* Alchemy Language */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +249,7 @@
 				BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
+				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BEAB3E4A1D08A14000E6C40F /* Alchemy Language */,
 				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
@@ -291,10 +325,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */,
 				BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */,
+				BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */,
+				BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */,
 				BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */,
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
+				BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */,
 				BEE865A41D06FDB300AB4240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,10 +346,12 @@
 			files = (
 				BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
+				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,
 				BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */,
 				BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */,
 				BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */,
+				BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
