@@ -16,8 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ksj-nQ-Ur1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.16862745583057404" blue="0.21176470816135406" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.16470588743686676" green="0.63137257099151611" blue="0.59607845544815063" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Alchemy Vision" id="mC5-JZ-w1u">
                         <barButtonItem key="rightBarButtonItem" title="Analyze" id="dS5-ns-8ft">

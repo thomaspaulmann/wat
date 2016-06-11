@@ -16,8 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="kTl-iK-byz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.16862745579999999" blue="0.21176470820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.1647058874" green="0.63137257099999999" blue="0.59607845540000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tone Analyzer" id="f6F-fO-jrj"/>
                 </viewController>
