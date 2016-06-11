@@ -55,6 +55,7 @@
 		BE4E527E1D0BF57300F1AE8D /* TextToSpeech.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E527D1D0BF57300F1AE8D /* TextToSpeech.storyboard */; };
 		BE4E52801D0BF58600F1AE8D /* VisualRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */; };
 		BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */; };
+		BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
@@ -132,6 +133,7 @@
 		BE4E527D1D0BF57300F1AE8D /* TextToSpeech.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextToSpeech.storyboard; sourceTree = "<group>"; };
 		BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VisualRecognition.storyboard; sourceTree = "<group>"; };
 		BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualRecognitionViewController.swift; sourceTree = "<group>"; };
+		BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MLAlertView.swift"; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
+				BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */,
 				BE4E52621D0BF48C00F1AE8D /* Services */,
 				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
@@ -474,6 +477,7 @@
 				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
 				BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */,
 				BE4E526C1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift in Sources */,
+				BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */,
 				BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */,
 				BE4E52721D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,

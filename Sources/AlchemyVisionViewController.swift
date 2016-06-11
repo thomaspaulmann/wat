@@ -7,29 +7,28 @@
 //
 
 import UIKit
+import AlchemyVisionV1
 
 class AlchemyVisionViewController: UIViewController {
+
+    // MARK: - Properties
+
+    private var alchemyVision: AlchemyVision?
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        alchemyVision = AlchemyVision(apiKey: Credentials.alchemyVisionApiKey)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: - Actions
+
+    @IBAction func didPressAnalyzeButton(sender: UIBarButtonItem) {
+        alchemyVision?.getRankedImageKeywords(
+            image: NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg")!,
+            failure: { [weak self] (error) in self?.showAlert() },
+            success: { (imageKeywords) in print(imageKeywords) })
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

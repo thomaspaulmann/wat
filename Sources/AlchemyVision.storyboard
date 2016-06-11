@@ -8,7 +8,7 @@
         <!--Alchemy Vision-->
         <scene sceneID="N9w-Z3-Cnd">
             <objects>
-                <viewController title="Alchemy Vision" id="6RG-bV-Zbt" sceneMemberID="viewController">
+                <viewController title="Alchemy Vision" id="6RG-bV-Zbt" customClass="AlchemyVisionViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="779-TP-lIO"/>
                         <viewControllerLayoutGuide type="bottom" id="t93-td-2oT"/>
@@ -19,6 +19,13 @@
                         <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Alchemy Vision" id="mC5-JZ-w1u">
+                        <barButtonItem key="rightBarButtonItem" title="Analyze" id="dS5-ns-8ft">
+                            <connections>
+                                <action selector="didPressAnalyzeButton:" destination="6RG-bV-Zbt" id="lom-D4-iEW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kd6-vg-072" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
