@@ -8,7 +8,7 @@
         <!--Visual Recognition-->
         <scene sceneID="Ksc-9s-fX4">
             <objects>
-                <viewController title="Visual Recognition" id="V5z-tc-JOO" sceneMemberID="viewController">
+                <viewController title="Visual Recognition" id="V5z-tc-JOO" customClass="VisualRecognitionViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uuo-Sj-B3N"/>
                         <viewControllerLayoutGuide type="bottom" id="W1f-bX-7fX"/>
