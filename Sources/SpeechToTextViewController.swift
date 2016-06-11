@@ -7,29 +7,33 @@
 //
 
 import UIKit
+import SpeechToTextV1
 
 class SpeechToTextViewController: UIViewController {
+
+    // MARK: - Properties
+
+    private var speechToText: SpeechToText?
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        speechToText = SpeechToText(username: Credentials.speechToTextUsername, password: Credentials.speechToTextPassword)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+        var settings = TranscriptionSettings(contentType: .L16(rate: 44100, channels: 1))
+        settings.continuous = true
+        settings.interimResults = true
 
-    /*
-    // MARK: - Navigation
+        let failure = { (error: NSError) in print(error) }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let stopStreaming = speechToText?.transcribe(settings,
+                                                    failure: failure) { results in
+                                                        if let transcription = results.last?.alternatives.last?.transcript {
+                                                            print(transcription)
+                                                        }
+        }
     }
-    */
 
 }

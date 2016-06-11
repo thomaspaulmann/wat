@@ -8,7 +8,7 @@
         <!--Speech To Text-->
         <scene sceneID="4bV-Nd-Eyp">
             <objects>
-                <viewController title="Speech To Text" id="4nL-te-zvh" sceneMemberID="viewController">
+                <viewController title="Speech To Text" id="4nL-te-zvh" customClass="SpeechToTextViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZyW-Am-WrC"/>
                         <viewControllerLayoutGuide type="bottom" id="Uud-ao-RV8"/>
