@@ -39,6 +39,22 @@
 		BE07491D1D07067400C74E8C /* ToneAnalyzerV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE07491E1D07067400C74E8C /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
+		BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */; };
+		BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */; };
+		BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */; };
+		BE4E526A1D0BF51100F1AE8D /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52691D0BF51100F1AE8D /* DialogViewController.swift */; };
+		BE4E526C1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E526B1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift */; };
+		BE4E526E1D0BF52300F1AE8D /* LanguageTranslation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E526D1D0BF52300F1AE8D /* LanguageTranslation.storyboard */; };
+		BE4E52701D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E526F1D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard */; };
+		BE4E52721D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52711D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift */; };
+		BE4E52741D0BF54300F1AE8D /* PersonalityInsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52731D0BF54300F1AE8D /* PersonalityInsightsViewController.swift */; };
+		BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52751D0BF54C00F1AE8D /* PersonalityInsights.storyboard */; };
+		BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52771D0BF55400F1AE8D /* SpeechToText.storyboard */; };
+		BE4E527A1D0BF56000F1AE8D /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52791D0BF56000F1AE8D /* SpeechToTextViewController.swift */; };
+		BE4E527C1D0BF56900F1AE8D /* TextToSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E527B1D0BF56900F1AE8D /* TextToSpeechViewController.swift */; };
+		BE4E527E1D0BF57300F1AE8D /* TextToSpeech.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E527D1D0BF57300F1AE8D /* TextToSpeech.storyboard */; };
+		BE4E52801D0BF58600F1AE8D /* VisualRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */; };
+		BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
@@ -100,6 +116,22 @@
 		BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
 		BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemyVisionViewController.swift; sourceTree = "<group>"; };
+		BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyVision.storyboard; sourceTree = "<group>"; };
+		BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dialog.storyboard; sourceTree = "<group>"; };
+		BE4E52691D0BF51100F1AE8D /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		BE4E526B1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTranslationViewController.swift; sourceTree = "<group>"; };
+		BE4E526D1D0BF52300F1AE8D /* LanguageTranslation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LanguageTranslation.storyboard; sourceTree = "<group>"; };
+		BE4E526F1D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NaturalLanguageClassifier.storyboard; sourceTree = "<group>"; };
+		BE4E52711D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaturalLanguageClassifierViewController.swift; sourceTree = "<group>"; };
+		BE4E52731D0BF54300F1AE8D /* PersonalityInsightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalityInsightsViewController.swift; sourceTree = "<group>"; };
+		BE4E52751D0BF54C00F1AE8D /* PersonalityInsights.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonalityInsights.storyboard; sourceTree = "<group>"; };
+		BE4E52771D0BF55400F1AE8D /* SpeechToText.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SpeechToText.storyboard; sourceTree = "<group>"; };
+		BE4E52791D0BF56000F1AE8D /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
+		BE4E527B1D0BF56900F1AE8D /* TextToSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToSpeechViewController.swift; sourceTree = "<group>"; };
+		BE4E527D1D0BF57300F1AE8D /* TextToSpeech.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextToSpeech.storyboard; sourceTree = "<group>"; };
+		BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VisualRecognition.storyboard; sourceTree = "<group>"; };
+		BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualRecognitionViewController.swift; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
@@ -184,6 +216,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE4E525A1D0BF42700F1AE8D /* Alchemy Vision */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */,
+				BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */,
+			);
+			name = "Alchemy Vision";
+			sourceTree = "<group>";
+		};
+		BE4E525B1D0BF43600F1AE8D /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */,
+				BE4E52691D0BF51100F1AE8D /* DialogViewController.swift */,
+			);
+			name = Dialog;
+			sourceTree = "<group>";
+		};
+		BE4E525C1D0BF44000F1AE8D /* Language Translation */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E526D1D0BF52300F1AE8D /* LanguageTranslation.storyboard */,
+				BE4E526B1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift */,
+			);
+			name = "Language Translation";
+			sourceTree = "<group>";
+		};
+		BE4E525D1D0BF45400F1AE8D /* Natural Language Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E526F1D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard */,
+				BE4E52711D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift */,
+			);
+			name = "Natural Language Classifier";
+			sourceTree = "<group>";
+		};
+		BE4E525E1D0BF45D00F1AE8D /* Personality Insights */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E52751D0BF54C00F1AE8D /* PersonalityInsights.storyboard */,
+				BE4E52731D0BF54300F1AE8D /* PersonalityInsightsViewController.swift */,
+			);
+			name = "Personality Insights";
+			sourceTree = "<group>";
+		};
+		BE4E525F1D0BF46B00F1AE8D /* Speech to Text */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E52771D0BF55400F1AE8D /* SpeechToText.storyboard */,
+				BE4E52791D0BF56000F1AE8D /* SpeechToTextViewController.swift */,
+			);
+			name = "Speech to Text";
+			sourceTree = "<group>";
+		};
+		BE4E52601D0BF47700F1AE8D /* Text to Speech */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E527D1D0BF57300F1AE8D /* TextToSpeech.storyboard */,
+				BE4E527B1D0BF56900F1AE8D /* TextToSpeechViewController.swift */,
+			);
+			name = "Text to Speech";
+			sourceTree = "<group>";
+		};
+		BE4E52611D0BF48500F1AE8D /* Visual Recognition */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */,
+				BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */,
+			);
+			name = "Visual Recognition";
+			sourceTree = "<group>";
+		};
+		BE4E52621D0BF48C00F1AE8D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB3E4A1D08A14000E6C40F /* Alchemy Language */,
+				BE4E525A1D0BF42700F1AE8D /* Alchemy Vision */,
+				BE4E525B1D0BF43600F1AE8D /* Dialog */,
+				BE4E525C1D0BF44000F1AE8D /* Language Translation */,
+				BE4E525D1D0BF45400F1AE8D /* Natural Language Classifier */,
+				BE4E525E1D0BF45D00F1AE8D /* Personality Insights */,
+				BE4E525F1D0BF46B00F1AE8D /* Speech to Text */,
+				BE4E52601D0BF47700F1AE8D /* Text to Speech */,
+				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
+				BE4E52611D0BF48500F1AE8D /* Visual Recognition */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		BE9812AD1D0A8E5D0089F46E /* MILAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,10 +365,9 @@
 			isa = PBXGroup;
 			children = (
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
-				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
-				BEAB3E4A1D08A14000E6C40F /* Alchemy Language */,
-				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
+				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
+				BE4E52621D0BF48C00F1AE8D /* Services */,
 				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);
@@ -322,14 +442,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4E526E1D0BF52300F1AE8D /* LanguageTranslation.storyboard in Resources */,
+				BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */,
 				BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */,
+				BE4E52801D0BF58600F1AE8D /* VisualRecognition.storyboard in Resources */,
 				BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */,
+				BE4E52701D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard in Resources */,
+				BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */,
 				BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */,
 				BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */,
 				BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */,
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
+				BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */,
+				BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
 				BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */,
+				BE4E527E1D0BF57300F1AE8D /* TextToSpeech.storyboard in Resources */,
 				BEE865A41D06FDB300AB4240 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,12 +469,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4E527A1D0BF56000F1AE8D /* SpeechToTextViewController.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
+				BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */,
+				BE4E526C1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift in Sources */,
+				BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */,
+				BE4E52721D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,
 				BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */,
+				BE4E526A1D0BF51100F1AE8D /* DialogViewController.swift in Sources */,
+				BE4E52741D0BF54300F1AE8D /* PersonalityInsightsViewController.swift in Sources */,
 				BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */,
 				BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */,
+				BE4E527C1D0BF56900F1AE8D /* TextToSpeechViewController.swift in Sources */,
 				BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
