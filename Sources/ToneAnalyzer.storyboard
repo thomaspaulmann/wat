@@ -16,13 +16,10 @@
                     <view key="view" contentMode="scaleToFill" id="kTl-iK-byz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tone Analyzer" id="f6F-fO-jrj"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO">
-                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </simulatedNavigationBarMetrics>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmc-LJ-UJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

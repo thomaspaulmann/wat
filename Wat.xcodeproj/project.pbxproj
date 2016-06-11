@@ -40,7 +40,6 @@
 		BE07491E1D07067400C74E8C /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
-		BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */; };
 		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
 		BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */; };
@@ -102,7 +101,6 @@
 		BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
-		BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
 		BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertViewManager.swift; sourceTree = "<group>"; };
@@ -246,12 +244,11 @@
 			isa = PBXGroup;
 			children = (
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
-				BE5594DD1D083CCF00A76EB7 /* UIViewController+Keyboard.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
-				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BEAB3E4A1D08A14000E6C40F /* Alchemy Language */,
 				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
+				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);
 			path = Sources;
@@ -344,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5594DE1D083CCF00A76EB7 /* UIViewController+Keyboard.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,

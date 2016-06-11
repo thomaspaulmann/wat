@@ -20,11 +20,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRt-te-Iv7">
                                 <rect key="frame" x="263" y="276" width="74.5" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aRt-te-Iv7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="848-UK-UTe"/>
                             <constraint firstItem="aRt-te-Iv7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Z1N-Fc-UFi"/>

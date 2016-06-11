@@ -34,7 +34,6 @@ class AlchemyLanguageViewController: UIViewController {
     // MARK: - Outlets
 
     @IBOutlet weak var textView: UITextView!
-    @IBOutlet weak var testLabel: UILabel!
 
     // MARK: - Properties
 
@@ -48,26 +47,15 @@ class AlchemyLanguageViewController: UIViewController {
         alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyLanguageApiKey)
     }
 
-    override func viewWillAppear(animated: Bool) {
-        startObservingKeyboardAppereance()
-    }
-
-    override func viewWillDisappear(animated: Bool) {
-        stopObservingKeyboardAppereance()
-    }
-
     // MARK: - Actions
 
-
-
-    @IBAction func didPressAnalyzeButton(sender: UIButton) {
+    @IBAction func didPressAnaylzeButton(sender: UIBarButtonItem) {
         alchemyLanguage?.getEmotionURL("",
                                        failure: { [weak self] (error) in
                                         MILAlertViewManager.sharedInstance.show(.Classic,
                                             text: "Ups... Something went wrong",
-                                            inView: nil,
-                                            underView: self?.navigationItem.titleView,
-                                            toHeight: self?.navigationItem.titleView!.frame.height ?? 0,
+                                            inView: self?.view,
+                                            toHeight: 64,
                                             callback: nil)
             },
                                        success: { (emotion) in
