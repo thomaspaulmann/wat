@@ -7,29 +7,26 @@
 //
 
 import UIKit
+import LanguageTranslationV2
 
 class LanguageTranslationViewController: UIViewController {
+
+    // MARK: - Properties
+
+    private var languageTranslation: LanguageTranslation?
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        languageTranslation = LanguageTranslation(username: Credentials.languageTranslationUsername, password: Credentials.languageTranslationPassword)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        languageTranslation?.translate(["Hello"],
+                                       source: "en",
+                                       target: "es",
+                                       failure: { (error: NSError) in print(error) },
+                                       success: { (response) in print(response.translations) })
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

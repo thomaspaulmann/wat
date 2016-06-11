@@ -8,7 +8,7 @@
         <!--Language Translation-->
         <scene sceneID="JPM-VK-qLR">
             <objects>
-                <viewController title="Language Translation" id="A4l-Hr-726" sceneMemberID="viewController">
+                <viewController title="Language Translation" id="A4l-Hr-726" customClass="LanguageTranslationViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6nX-OG-SQw"/>
                         <viewControllerLayoutGuide type="bottom" id="RrY-WW-Z6X"/>
