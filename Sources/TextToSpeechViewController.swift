@@ -7,29 +7,35 @@
 //
 
 import UIKit
+import TextToSpeechV1
+import AVFoundation
 
 class TextToSpeechViewController: UIViewController {
+
+    // MARK: - Properties
+
+    private var textToSpeech: TextToSpeech?
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        textToSpeech = TextToSpeech(username: Credentials.textToSpeechUsername, password: Credentials.textToSpeechPassword)
+
+        let failure = { (error: NSError) in print(error) }
+        textToSpeech?.synthesize("Hello World", failure: failure) { [weak self] data in
+            self?.playAudio(fromData: data)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func playAudio(fromData data: NSData) {
+        do {
+            let audioPlayer = try AVAudioPlayer(data: data)
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch let error {
+            print(error)
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
