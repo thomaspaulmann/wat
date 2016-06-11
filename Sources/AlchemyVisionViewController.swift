@@ -20,7 +20,7 @@ class AlchemyVisionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        alchemyVision = AlchemyVision(apiKey: Credentials.alchemyVisionApiKey)
+        alchemyVision = AlchemyVision(apiKey: Credentials.alchemyApiKey)
     }
 
     // MARK: - Actions
@@ -31,4 +31,5 @@ class AlchemyVisionViewController: UIViewController {
             failure: { [weak self] (error) in self?.showAlert() },
             success: { (imageKeywords) in print(imageKeywords) })
     }
+    
 }

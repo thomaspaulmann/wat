@@ -24,7 +24,7 @@ class AlchemyLanguageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyLanguageApiKey)
+        alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyApiKey)
     }
 
     // MARK: - Actions
