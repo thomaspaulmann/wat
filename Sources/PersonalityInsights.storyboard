@@ -8,7 +8,7 @@
         <!--Personality Insights-->
         <scene sceneID="zMU-YJ-1sk">
             <objects>
-                <viewController title="Personality Insights" id="ITH-gJ-7ld" sceneMemberID="viewController">
+                <viewController title="Personality Insights" id="ITH-gJ-7ld" customClass="PersonalityInsightsViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RiQ-bd-pA1"/>
                         <viewControllerLayoutGuide type="bottom" id="7p0-sZ-vaz"/>

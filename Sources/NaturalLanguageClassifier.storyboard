@@ -8,7 +8,7 @@
         <!--Natural Language Classifier-->
         <scene sceneID="svp-uF-0TV">
             <objects>
-                <viewController title="Natural Language Classifier" id="zwm-a0-0T9" sceneMemberID="viewController">
+                <viewController title="Natural Language Classifier" id="zwm-a0-0T9" customClass="NaturalLanguageClassifierViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KJP-fZ-w88"/>
                         <viewControllerLayoutGuide type="bottom" id="chl-vk-jEX"/>

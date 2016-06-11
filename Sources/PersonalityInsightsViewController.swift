@@ -7,29 +7,27 @@
 //
 
 import UIKit
+import PersonalityInsightsV2
 
 class PersonalityInsightsViewController: UIViewController {
+
+    // MARK: - Properties
+
+    private var personalityInsights: PersonalityInsights?
+
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        personalityInsights = PersonalityInsights(username: Credentials.personalityInsightsUsername, password: Credentials.personalityInsightsPassword)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+        let failure = { (error: NSError) in print(error) }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        personalityInsights?.getProfile(text: "Some text here",
+                                       failure: failure) { profile in
+                                        print(profile)
+        }
     }
-    */
 
 }
