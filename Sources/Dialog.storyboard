@@ -8,7 +8,7 @@
         <!--Dialog-->
         <scene sceneID="3fb-lk-AKX">
             <objects>
-                <viewController title="Dialog" id="uda-Hz-o0f" sceneMemberID="viewController">
+                <viewController title="Dialog" id="uda-Hz-o0f" customClass="DialogViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6iT-Gd-4md"/>
                         <viewControllerLayoutGuide type="bottom" id="BC0-2O-CJJ"/>

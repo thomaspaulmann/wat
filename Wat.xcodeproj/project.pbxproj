@@ -56,6 +56,7 @@
 		BE4E52801D0BF58600F1AE8D /* VisualRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */; };
 		BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */; };
 		BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */; };
+		BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */ = {isa = PBXBuildFile; fileRef = BE4E528C1D0C07D100F1AE8D /* pizza.xml */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
@@ -134,6 +135,7 @@
 		BE4E527F1D0BF58600F1AE8D /* VisualRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VisualRecognition.storyboard; sourceTree = "<group>"; };
 		BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualRecognitionViewController.swift; sourceTree = "<group>"; };
 		BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MLAlertView.swift"; sourceTree = "<group>"; };
+		BE4E528C1D0C07D100F1AE8D /* pizza.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pizza.xml; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
@@ -307,6 +309,15 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		BE4E52851D0C038A00F1AE8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E528C1D0C07D100F1AE8D /* pizza.xml */,
+			);
+			name = Resources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		BE9812AD1D0A8E5D0089F46E /* MILAlertView */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE8659D1D06FDB300AB4240 /* Sources */,
+				BE4E52851D0C038A00F1AE8D /* Resources */,
 				BEE865B01D06FE9500AB4240 /* Frameworks */,
 				BEE8659C1D06FDB300AB4240 /* Products */,
 			);
@@ -458,6 +470,7 @@
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
 				BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */,
 				BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */,
+				BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
 				BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */,
 				BE4E527E1D0BF57300F1AE8D /* TextToSpeech.storyboard in Resources */,
