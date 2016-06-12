@@ -39,8 +39,7 @@ class SpeechToTextViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func didPressListeningButton(button: UIButton) {
-        let failure = { (error: NSError) in print(error) }
-
+        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
         let success = { [weak self] (result: [TranscriptionResult]) in
             if let transcription = result.last?.alternatives.last?.transcript {
                 self?.textView.text = transcription

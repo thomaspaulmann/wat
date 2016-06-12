@@ -63,7 +63,7 @@ class TextToSpeechViewController: UIViewController {
 
     @IBAction func didPressSpeakButton(sender: UIButton) {
         let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
-        let success = { [weak self] (data: NSData) in self.playAudio(fromData: data) }
+        let success = { [weak self] (data: NSData) -> Void in self?.playAudio(fromData: data) }
 
         textToSpeech?.synthesize(textView.text,
                                  failure: failure,

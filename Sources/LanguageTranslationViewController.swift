@@ -50,14 +50,16 @@ class LanguageTranslationViewController: UIViewController {
     // MARK: - Operations
 
     private func translate(text: String) {
+        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
+        let success = { [weak self] (response: TranslateResponse) -> Void in
+            self?.outputTextView.text = response.translations.last?.translation
+        }
 
         languageTranslation?.translate(text,
                                        source: "en",
                                        target: "fr",
-                                       failure: { (error: NSError) in print(error) },
-                                       success: { [weak self] (response) in
-                                        self?.outputTextView.text = response.translations.last?.translation
-            })
+                                       failure: failure,
+                                       success: success)
     }
 
     // MARK: - Actions
