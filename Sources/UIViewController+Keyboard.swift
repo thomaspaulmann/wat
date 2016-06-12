@@ -20,27 +20,21 @@ extension UIViewController {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 
-    // Inspired by this discussion: http://stackoverflow.com/questions/25693130/move-textfield-when-keyboard-appears-swift
+    // Inspiration: http://stackoverflow.com/questions/25693130/move-textfield-when-keyboard-appears-swift
     func animateWithKeyboard(notification: NSNotification) {
         guard let
             constraint = bottomConstraint(),
             userInfo = notification.userInfo,
             keyboardHeight = (userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.CGRectValue().height,
-            duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double,
-            curve = userInfo[UIKeyboardAnimationCurveUserInfoKey] as? UInt
+            duration = userInfo[UIKeyboardAnimationDurationUserInfoKey] as? Double
             else {
                 return
         }
 
         constraint.constant = (notification.name == UIKeyboardWillShowNotification) ? keyboardHeight : 0
 
-        let options = UIViewAnimationOptions(rawValue: curve << 16)
-
         UIView.animateWithDuration(duration,
-                                   delay: 0,
-                                   options: options,
-                                   animations: { self.view.layoutIfNeeded() },
-                                   completion: nil)
+                                   animations: { self.view.layoutIfNeeded() })
     }
 
     // Override this method to provide your own Constraint
