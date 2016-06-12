@@ -27,12 +27,20 @@ class AlchemyLanguageViewController: UIViewController {
         alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyApiKey)
     }
 
+    // MARK: - Operations
+
+    private func analyzeText(text: String) {
+        // TBC: Method to upload text is needed
+
+//        alchemyLanguage?.getEmotionURL("",
+//                                       failure: { [weak self] (error) in self?.showAlert() },
+//                                       success: { (emotion) in print(emotion) })
+    }
+
     // MARK: - Actions
 
     @IBAction func didPressAnaylzeButton(sender: UIBarButtonItem) {
-        alchemyLanguage?.getEmotionURL("",
-                                       failure: { [weak self] (error) in self?.showAlert() },
-                                       success: { (emotion) in print(emotion) })
+        analyzeText(textView.text)
     }
 
 }

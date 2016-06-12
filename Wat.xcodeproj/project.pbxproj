@@ -39,6 +39,7 @@
 		BE07491D1D07067400C74E8C /* ToneAnalyzerV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE07491E1D07067400C74E8C /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
+		BE30820C1D0D6DA9008A4A5F /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30820B1D0D6DA8008A4A5F /* UIViewController+Keyboard.swift */; };
 		BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */; };
 		BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */; };
 		BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */; };
@@ -118,6 +119,7 @@
 		BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
 		BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		BE30820B1D0D6DA8008A4A5F /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemyVisionViewController.swift; sourceTree = "<group>"; };
 		BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyVision.storyboard; sourceTree = "<group>"; };
 		BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dialog.storyboard; sourceTree = "<group>"; };
@@ -382,6 +384,7 @@
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */,
+				BE30820B1D0D6DA8008A4A5F /* UIViewController+Keyboard.swift */,
 				BE4E52621D0BF48C00F1AE8D /* Services */,
 				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
@@ -485,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE30820C1D0D6DA9008A4A5F /* UIViewController+Keyboard.swift in Sources */,
 				BE4E527A1D0BF56000F1AE8D /* SpeechToTextViewController.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
