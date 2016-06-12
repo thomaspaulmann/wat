@@ -9,6 +9,6 @@
 - [ ] Natural Language Classifier
 - [ ] Personality Insights
 - [x] Speech to Text
-- [ ] Text to Speech
+- [x] Text to Speech
 - [ ] Tone Analyzer
 - [ ] Visual Recognition
