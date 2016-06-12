@@ -28,7 +28,10 @@
                                     <color key="titleColor" red="0.14901961386203766" green="0.54509806632995605" blue="0.82352942228317261" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didPressButton:" destination="4nL-te-zvh" eventType="touchDown" id="9yh-Jk-Xv5"/>
+                                    <action selector="didPressListeningButton:" destination="4nL-te-zvh" eventType="touchDown" id="ckI-g9-jwN"/>
+                                    <action selector="didReleaseListeningButton:" destination="4nL-te-zvh" eventType="touchUpOutside" id="5kN-VZ-K8t"/>
+                                    <action selector="didReleaseListeningButton:" destination="4nL-te-zvh" eventType="touchUpInside" id="LDD-9k-fqK"/>
+                                    <action selector="didReleaseListeningButton:" destination="4nL-te-zvh" eventType="touchCancel" id="fmX-RG-FdN"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKw-a9-9dd">

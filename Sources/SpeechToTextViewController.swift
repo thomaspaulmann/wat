@@ -18,10 +18,12 @@ class SpeechToTextViewController: UIViewController {
     // MARK: - Properties
 
     private var speechToText: SpeechToText?
+    private var stopListening: SpeechToText.StopStreaming?
     private lazy var speechToTextSettings: TranscriptionSettings = {
         var settings = TranscriptionSettings(contentType: .L16(rate: 44100, channels: 1))
         settings.continuous = true
         settings.interimResults = true
+        settings.inactivityTimeout = 5
 
         return settings
     }()
@@ -36,14 +38,21 @@ class SpeechToTextViewController: UIViewController {
 
     // MARK: - Actions
 
-    @IBAction func didPressButton(sender: UIButton) {
-        let successCompletion = { [weak self] (result: [TranscriptionResult]) in
+    @IBAction func didPressListeningButton(button: UIButton) {
+        let failure = { (error: NSError) in print(error) }
+
+        let success = { [weak self] (result: [TranscriptionResult]) in
             if let transcription = result.last?.alternatives.last?.transcript {
                 self?.textView.text = transcription
             }
         }
 
-        let _ = speechToText?.transcribe(speechToTextSettings, success:successCompletion)
+        stopListening = speechToText?.transcribe(speechToTextSettings,
+                                     failure: failure,
+                                     success:success)
     }
 
+    @IBAction func didReleaseListeningButton(button: UIButton) {
+        stopListening?()
+    }
 }
