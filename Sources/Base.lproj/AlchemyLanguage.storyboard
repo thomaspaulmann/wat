@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Alchemy Language-->
+        <!--Alchemy Language View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AlchemyLanguageViewController" customModule="Wat" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,15 +26,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSN-qX-dHC">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.027450980619999999" green="0.21176470820000001" blue="0.2588235438" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="LMa-vI-46f"/>
+                                    <constraint firstAttribute="height" constant="50" id="StN-6l-x0O"/>
+                                </constraints>
+                                <state key="normal" title="Analyze">
+                                    <color key="titleColor" red="0.14901961389999999" green="0.54509806630000002" blue="0.82352942230000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressAnalyzeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVM-Ke-uFH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16862745583057404" blue="0.21176470816135406" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mhR-AP-PXQ" secondAttribute="bottom" id="2hB-e3-vP0"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="74m-dF-ECR"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DVc-8B-bG1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BSN-qX-dHC" secondAttribute="trailing" constant="-20" id="Dtg-Ni-93s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BSN-qX-dHC" secondAttribute="bottom" id="Hnk-lG-6z2"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PTr-hC-Pgz"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ebN-1o-UBl"/>
                             <constraint firstItem="mhR-AP-PXQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="onH-AX-QCC"/>
+                            <constraint firstItem="BSN-qX-dHC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="qt5-wx-Ntk"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -43,14 +60,8 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Alchemy Language" id="JpT-H6-Bwm">
-                        <barButtonItem key="rightBarButtonItem" title="Analyze" id="fvP-3x-ynT">
-                            <connections>
-                                <action selector="didPressAnaylzeButton:" destination="BYZ-38-t0r" id="fjV-ZQ-LVj"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
+                        <outlet property="analyzeButtonBottomConstraint" destination="Hnk-lG-6z2" id="wHy-Hs-zMh"/>
                         <outlet property="textView" destination="mhR-AP-PXQ" id="Zqg-f8-jTD"/>
                     </connections>
                 </viewController>

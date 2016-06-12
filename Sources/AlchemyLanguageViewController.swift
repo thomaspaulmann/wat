@@ -14,6 +14,7 @@ class AlchemyLanguageViewController: UIViewController {
     // MARK: - Outlets
 
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var analyzeButtonBottomConstraint: NSLayoutConstraint!
 
     // MARK: - Properties
 
@@ -27,15 +28,33 @@ class AlchemyLanguageViewController: UIViewController {
         alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyApiKey)
     }
 
-    // MARK: - Operations
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+
+        startKeyboardObservation()
+    }
+
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+
+        stopKeyboardObservation()
+    }
+
+    // MARK: - Logic
 
     private func analyzeText(text: String) {
         // TBC: Method to upload text is needed
     }
 
+    // MARK: - Keyboard Observation
+
+    override func bottomConstraint() -> NSLayoutConstraint? {
+        return analyzeButtonBottomConstraint
+    }
+
     // MARK: - Actions
 
-    @IBAction func didPressAnaylzeButton(sender: UIBarButtonItem) {
+    @IBAction func didPressAnalyzeButton(sender: UIButton) {
         analyzeText(textView.text)
     }
 
