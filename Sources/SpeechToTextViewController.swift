@@ -11,9 +11,20 @@ import SpeechToTextV1
 
 class SpeechToTextViewController: UIViewController {
 
+    // MARK: - Outlets
+
+    @IBOutlet weak var textView: UITextView!
+    
     // MARK: - Properties
 
     private var speechToText: SpeechToText?
+    private lazy var speechToTextSettings: TranscriptionSettings = {
+        var settings = TranscriptionSettings(contentType: .L16(rate: 44100, channels: 1))
+        settings.continuous = true
+        settings.interimResults = true
+
+        return settings
+    }()
 
     // MARK: - Lifecycle
 
@@ -21,19 +32,18 @@ class SpeechToTextViewController: UIViewController {
         super.viewDidLoad()
 
         speechToText = SpeechToText(username: Credentials.speechToTextUsername, password: Credentials.speechToTextPassword)
+    }
 
-        var settings = TranscriptionSettings(contentType: .L16(rate: 44100, channels: 1))
-        settings.continuous = true
-        settings.interimResults = true
+    // MARK: - Actions
 
-        let failure = { (error: NSError) in print(error) }
-
-        let stopStreaming = speechToText?.transcribe(settings,
-                                                    failure: failure) { results in
-                                                        if let transcription = results.last?.alternatives.last?.transcript {
-                                                            print(transcription)
-                                                        }
+    @IBAction func didPressButton(sender: UIButton) {
+        let successCompletion = { [weak self] (result: [TranscriptionResult]) in
+            if let transcription = result.last?.alternatives.last?.transcript {
+                self?.textView.text = transcription
+            }
         }
+
+        let _ = speechToText?.transcribe(speechToTextSettings, success:successCompletion)
     }
 
 }

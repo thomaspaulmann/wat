@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Speech To Text-->
@@ -16,9 +17,43 @@
                     <view key="view" contentMode="scaleToFill" id="Oxa-c9-T4X">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-yK-X2w">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.027450980619999999" green="0.21176470820000001" blue="0.2588235438" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="M6a-Bf-E5K"/>
+                                </constraints>
+                                <state key="normal" title="Press &amp; Hold">
+                                    <color key="titleColor" red="0.14901961386203766" green="0.54509806632995605" blue="0.82352942228317261" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressButton:" destination="4nL-te-zvh" eventType="touchDown" id="9yh-Jk-Xv5"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKw-a9-9dd">
+                                <rect key="frame" x="20" y="20" width="560" height="480"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16862745579999999" blue="0.21176470820000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.1647058874" green="0.63137257099999999" blue="0.59607845540000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Uud-ao-RV8" firstAttribute="top" secondItem="MBh-yK-X2w" secondAttribute="bottom" id="GQR-Fv-ZQ7"/>
+                            <constraint firstItem="MBh-yK-X2w" firstAttribute="top" secondItem="bKw-a9-9dd" secondAttribute="bottom" constant="50" id="Gxm-HZ-ZDv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MBh-yK-X2w" secondAttribute="trailing" constant="-20" id="J6D-Xe-Oq7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bKw-a9-9dd" secondAttribute="trailing" id="QkL-Ir-oyU"/>
+                            <constraint firstItem="bKw-a9-9dd" firstAttribute="top" secondItem="ZyW-Am-WrC" secondAttribute="bottom" id="Re3-MQ-AJs"/>
+                            <constraint firstItem="bKw-a9-9dd" firstAttribute="leading" secondItem="Oxa-c9-T4X" secondAttribute="leadingMargin" id="cNy-Um-Khj"/>
+                            <constraint firstItem="MBh-yK-X2w" firstAttribute="leading" secondItem="Oxa-c9-T4X" secondAttribute="leadingMargin" constant="-20" id="yfY-ZZ-HHn"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="bKw-a9-9dd" id="8gB-Ul-T0T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sa8-AC-G7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
