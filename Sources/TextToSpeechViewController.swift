@@ -12,9 +12,15 @@ import AVFoundation
 
 class TextToSpeechViewController: UIViewController {
 
+    // MARK: - Outlets
+
+    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var speakButtonBottomConstraint: NSLayoutConstraint!
+    
     // MARK: - Properties
 
     private var textToSpeech: TextToSpeech?
+    private var audioPlayer: AVAudioPlayer?
 
     // MARK: - Lifecycle
 
@@ -22,20 +28,46 @@ class TextToSpeechViewController: UIViewController {
         super.viewDidLoad()
 
         textToSpeech = TextToSpeech(username: Credentials.textToSpeechUsername, password: Credentials.textToSpeechPassword)
-
-        let failure = { (error: NSError) in print(error) }
-        textToSpeech?.synthesize("Hello World", failure: failure) { [weak self] data in
-            self?.playAudio(fromData: data)
-        }
     }
 
-    func playAudio(fromData data: NSData) {
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+
+        startKeyboardObservation()
+    }
+
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+
+        stopKeyboardObservation()
+    }
+
+    // MARK: - Logic
+    
+    private func playAudio(fromData data: NSData) {
         do {
-            let audioPlayer = try AVAudioPlayer(data: data)
-            audioPlayer.prepareToPlay()
-            audioPlayer.play()
+            audioPlayer = try AVAudioPlayer(data: data)
+            audioPlayer?.play()
         } catch let error {
             print(error)
         }
     }
+
+    // MARK: - Keyboard Observation
+
+    override func bottomConstraint() -> NSLayoutConstraint? {
+        return speakButtonBottomConstraint
+    }
+
+    // MARK: - Actions
+
+    @IBAction func didPressSpeakButton(sender: UIButton) {
+        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
+        let success = { [weak self] (data: NSData) in self.playAudio(fromData: data) }
+
+        textToSpeech?.synthesize(textView.text,
+                                 failure: failure,
+                                 success: success)
+    }
+
 }
