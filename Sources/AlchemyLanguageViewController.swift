@@ -31,10 +31,6 @@ class AlchemyLanguageViewController: UIViewController {
 
     private func analyzeText(text: String) {
         // TBC: Method to upload text is needed
-
-//        alchemyLanguage?.getEmotionURL("",
-//                                       failure: { [weak self] (error) in self?.showAlert() },
-//                                       success: { (emotion) in print(emotion) })
     }
 
     // MARK: - Actions

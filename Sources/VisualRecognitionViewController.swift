@@ -9,7 +9,11 @@
 import UIKit
 import VisualRecognitionV3
 
-class VisualRecognitionViewController: UIViewController {
+class VisualRecognitionViewController: UIViewController, UINavigationControllerDelegate {
+
+    // MARK: - Outlets
+
+    @IBOutlet weak var imageView: UIImageView!
 
     // MARK: - Properties
 
@@ -21,12 +25,45 @@ class VisualRecognitionViewController: UIViewController {
         super.viewDidLoad()
 
         visualRecogntion = VisualRecognition(apiKey: Credentials.visualRecognitionApiKey, version: Credentials.visualRecognitionVersionDate)
+    }
 
-        let failure = { (error: NSError) in print(error) }
-        visualRecogntion?.detectFaces("https://upload.wikimedia.org/wikipedia/commons/f/fc/Ryan_Gosling_2_Cannes_2011_(cropped).jpg",
-                                      failure: failure) { imagesWithFaces in
-            print(imagesWithFaces)
+    private func choosePhoto() {
+        if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = .PhotoLibrary
+            imagePicker.editing = false
+
+            self.presentViewController(imagePicker, animated: true, completion: nil)
         }
     }
 
+    private func analyzeImage(image: UIImage) {
+        // TBC: Method to upload image is needed or use image from asset url
+    }
+
+    // MARK: - Actions
+
+    @IBAction func didPressChoosePhotoButton(sender: UIButton) {
+        choosePhoto()
+    }
+
+}
+
+// MARK: - Image Picker Delegate
+
+extension VisualRecognitionViewController: UIImagePickerControllerDelegate {
+
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        picker.dismissViewControllerAnimated(true, completion: nil)
+
+        if let
+            image = info[UIImagePickerControllerOriginalImage] as? UIImage,
+            imageUrl = info[UIImagePickerControllerReferenceURL] as? NSURL
+        {
+            imageView.image = image
+            analyzeImage(image)
+        }
+    }
+    
 }
