@@ -20,6 +20,7 @@ extension UIViewController {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 
+    // Inspired by this discussion: http://stackoverflow.com/questions/25693130/move-textfield-when-keyboard-appears-swift
     func animateWithKeyboard(notification: NSNotification) {
         guard let
             constraint = bottomConstraint(),

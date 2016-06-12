@@ -14,6 +14,7 @@ class LanguageTranslationViewController: UIViewController {
     // MARK: - Outlets
 
     @IBOutlet weak var inputTextView: UITextView!
+    @IBOutlet weak var outputTextView: UITextView!
     @IBOutlet weak var translateButtonBottomConstraint: NSLayoutConstraint!
 
     // MARK: - Properties
@@ -26,10 +27,6 @@ class LanguageTranslationViewController: UIViewController {
         super.viewDidLoad()
 
         languageTranslation = LanguageTranslation(username: Credentials.languageTranslationUsername, password: Credentials.languageTranslationPassword)
-
-        languageTranslation?.getIdentifiableLanguages(success: { (languages) in
-            print(languages)
-        })
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -58,7 +55,9 @@ class LanguageTranslationViewController: UIViewController {
                                        source: "en",
                                        target: "fr",
                                        failure: { (error: NSError) in print(error) },
-                                       success: { [weak self] (response) in print(response.translations) })
+                                       success: { [weak self] (response) in
+                                        self?.outputTextView.text = response.translations.last?.translation
+            })
     }
 
     // MARK: - Actions

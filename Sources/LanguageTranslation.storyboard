@@ -41,20 +41,35 @@
                                     <action selector="didPressTranslateButton:" destination="A4l-Hr-726" eventType="touchUpInside" id="xsY-DB-Vyr"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uix-MO-eht">
+                                <rect key="frame" x="20" y="136" width="560" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="38T-rQ-ZrL"/>
+                                    <constraint firstAttribute="height" constant="128" id="p9Z-pD-gXH"/>
+                                </constraints>
+                                <color key="textColor" red="0.93333333730000001" green="0.9098039269" blue="0.83529412749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16862745579999999" blue="0.21176470820000001" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.16470588743686676" green="0.63137257099151611" blue="0.59607845544815063" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="uix-MO-eht" firstAttribute="trailing" secondItem="FBQ-ID-7JV" secondAttribute="trailingMargin" id="DOs-EK-SHv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="060-3c-Osw" secondAttribute="trailing" constant="-20" id="Dkz-4q-li1"/>
+                            <constraint firstItem="uix-MO-eht" firstAttribute="top" secondItem="LtD-GE-YZj" secondAttribute="bottom" constant="8" id="Hgg-MF-JGV"/>
                             <constraint firstItem="LtD-GE-YZj" firstAttribute="leading" secondItem="FBQ-ID-7JV" secondAttribute="leadingMargin" id="KCs-1J-DwA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LtD-GE-YZj" secondAttribute="trailing" id="TMC-pe-LUR"/>
                             <constraint firstItem="060-3c-Osw" firstAttribute="leading" secondItem="FBQ-ID-7JV" secondAttribute="leadingMargin" constant="-20" id="cm0-zf-gbg"/>
+                            <constraint firstItem="uix-MO-eht" firstAttribute="leading" secondItem="FBQ-ID-7JV" secondAttribute="leadingMargin" id="i3W-yQ-fFg"/>
                             <constraint firstItem="LtD-GE-YZj" firstAttribute="top" secondItem="FBQ-ID-7JV" secondAttribute="topMargin" id="mvD-Jc-ADn"/>
                             <constraint firstItem="RrY-WW-Z6X" firstAttribute="top" secondItem="060-3c-Osw" secondAttribute="bottom" id="nsa-Wl-Dy2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="inputTextView" destination="LtD-GE-YZj" id="RPk-Lv-6MU"/>
+                        <outlet property="outputTextView" destination="uix-MO-eht" id="rj4-wF-4cz"/>
                         <outlet property="translateButtonBottomConstraint" destination="nsa-Wl-Dy2" id="Mcz-0W-h84"/>
                     </connections>
                 </viewController>
