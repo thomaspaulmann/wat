@@ -39,7 +39,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.16862745583057404" blue="0.21176470816135406" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.16470588743686676" green="0.63137257099151611" blue="0.59607845544815063" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="separatorColor" red="0.027450980618596077" green="0.21176470816135406" blue="0.25882354378700256" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="separatorColor" red="0.34509804844856262" green="0.43137255311012268" blue="0.45882353186607361" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <sections>
