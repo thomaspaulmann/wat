@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Alchemy Vision-->
@@ -16,20 +17,43 @@
                     <view key="view" contentMode="scaleToFill" id="Ksj-nQ-Ur1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oTa-1H-zDA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIb-rt-cbZ">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.027450980618596077" green="0.21176470816135406" blue="0.25882354378700256" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="mBI-R8-y70"/>
+                                </constraints>
+                                <state key="normal" title="Choose Photo">
+                                    <color key="titleColor" red="0.14901961389999999" green="0.54509806630000002" blue="0.82352942230000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressChoosePhotoButton:" destination="6RG-bV-Zbt" eventType="touchUpInside" id="dsA-eu-KvS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16862745583057404" blue="0.21176470816135406" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.16470588743686676" green="0.63137257099151611" blue="0.59607845544815063" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="t93-td-2oT" firstAttribute="top" secondItem="bIb-rt-cbZ" secondAttribute="bottom" id="24a-3t-RVe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oTa-1H-zDA" secondAttribute="trailing" constant="-20" id="8dZ-Ew-87B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bIb-rt-cbZ" secondAttribute="trailing" constant="-20" id="eLC-nB-T2g"/>
+                            <constraint firstItem="bIb-rt-cbZ" firstAttribute="leading" secondItem="Ksj-nQ-Ur1" secondAttribute="leadingMargin" constant="-20" id="h0N-pT-10e"/>
+                            <constraint firstItem="oTa-1H-zDA" firstAttribute="top" secondItem="Ksj-nQ-Ur1" secondAttribute="topMargin" id="ild-2h-D1Z"/>
+                            <constraint firstItem="oTa-1H-zDA" firstAttribute="leading" secondItem="Ksj-nQ-Ur1" secondAttribute="leadingMargin" constant="-20" id="ipQ-oL-4EY"/>
+                            <constraint firstItem="t93-td-2oT" firstAttribute="top" secondItem="oTa-1H-zDA" secondAttribute="bottom" constant="50" id="ynl-vr-Whg"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Alchemy Vision" id="mC5-JZ-w1u">
-                        <barButtonItem key="rightBarButtonItem" title="Analyze" id="dS5-ns-8ft">
-                            <connections>
-                                <action selector="didPressAnalyzeButton:" destination="6RG-bV-Zbt" id="lom-D4-iEW"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="oTa-1H-zDA" id="8DC-CP-2Jy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kd6-vg-072" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="418" y="325"/>
+            <point key="canvasLocation" x="306" y="203"/>
         </scene>
     </scenes>
 </document>

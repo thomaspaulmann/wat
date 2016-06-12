@@ -9,7 +9,11 @@
 import UIKit
 import AlchemyVisionV1
 
-class AlchemyVisionViewController: UIViewController {
+class AlchemyVisionViewController: UIViewController, UINavigationControllerDelegate {
+
+    // MARK: - Outlets
+
+    @IBOutlet weak var imageView: UIImageView!
 
     // MARK: - Properties
 
@@ -23,13 +27,43 @@ class AlchemyVisionViewController: UIViewController {
         alchemyVision = AlchemyVision(apiKey: Credentials.alchemyApiKey)
     }
 
+    // MARK: - Operations
+
+    private func choosePhoto() {
+        if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = .PhotoLibrary
+            imagePicker.editing = false
+
+            self.presentViewController(imagePicker, animated: true, completion: nil)
+        }
+    }
+
+    private func analyzeImage(image: UIImage) {
+        // TBC: Alchemy Vision needs possibility to upload photo for analyzing
+    }
+
     // MARK: - Actions
 
-    @IBAction func didPressAnalyzeButton(sender: UIBarButtonItem) {
-        alchemyVision?.getRankedImageKeywords(
-            image: NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg")!,
-            failure: { [weak self] (error) in self?.showAlert() },
-            success: { (imageKeywords) in print(imageKeywords) })
+    @IBAction func didPressChoosePhotoButton(sender: UIButton) {
+        choosePhoto()
     }
     
+}
+
+// MARK: - Image Picker Delegate
+
+extension AlchemyVisionViewController: UIImagePickerControllerDelegate {
+
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        picker.dismissViewControllerAnimated(true, completion: nil)
+
+        if let
+            image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            imageView.image = image
+            analyzeImage(image)
+        }
+    }
+
 }
