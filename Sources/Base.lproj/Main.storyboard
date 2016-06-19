@@ -59,8 +59,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Extract Emotions of your texts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zTZ-qh-1jB">
-                                                    <rect key="frame" x="15" y="25.5" width="158" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zTZ-qh-1jB">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,8 +88,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Find hashtags for your Photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmp-jd-c2M">
-                                                    <rect key="frame" x="15" y="25.5" width="157.5" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmp-jd-c2M">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
@@ -116,8 +116,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Order a Pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Al-er-rWD">
-                                                    <rect key="frame" x="15" y="25.5" width="70.5" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Al-er-rWD">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
@@ -200,8 +200,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Get some interesting Insights about yourself" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TX2-8o-XhL">
-                                                    <rect key="frame" x="15" y="25.5" width="232.5" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TX2-8o-XhL">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
@@ -284,8 +284,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Get the Tone of a given Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lVV-bw-cpN">
-                                                    <rect key="frame" x="15" y="25.5" width="147.5" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lVV-bw-cpN">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>
@@ -312,8 +312,8 @@
                                                     <color key="textColor" red="0.93333333730697632" green="0.90980392694473267" blue="0.83529412746429443" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Find Faces in your Photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vF5-9w-u3I">
-                                                    <rect key="frame" x="15" y="25.5" width="135" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="To be coded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vF5-9w-u3I">
+                                                    <rect key="frame" x="15" y="25.5" width="65.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.57647061347961426" green="0.63137257099151611" blue="0.63137257099151611" alpha="1" colorSpace="calibratedRGB"/>

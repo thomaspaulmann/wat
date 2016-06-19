@@ -39,7 +39,7 @@ class VisualRecognitionViewController: UIViewController, UINavigationControllerD
     }
 
     private func analyzeImage(image: UIImage) {
-        // TBC: Method to upload image is needed or use image from asset url
+        // TBC: Visual Recognition needs possibility to upload image for analyzing
     }
 
     // MARK: - Actions

@@ -43,7 +43,7 @@ class AlchemyLanguageViewController: UIViewController {
     // MARK: - Logic
 
     private func analyzeText(text: String) {
-        // TBC: Method to upload text is needed
+        // TBC: Alchemy Language needs possibility to upload plain text for analyzing
     }
 
     // MARK: - Keyboard Observation
