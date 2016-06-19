@@ -17,9 +17,6 @@ class DialogViewController: UIViewController {
     // MARK: - Properties
 
     private var dialog: Dialog?
-    private var dialogId: DialogID?
-    private var conversationID: Int?
-    private var clientID: Int?
 
     // MARK: - Lifecycle
 
@@ -33,39 +30,13 @@ class DialogViewController: UIViewController {
             return
         }
 
-        let userDefaults = NSUserDefaults.standardUserDefaults()
+        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
+        let success = { (dialogId: DialogID) -> Void in print(dialogId) }
 
-        if let id = userDefaults.objectForKey("dialog-id") as? DialogID {
-            dialogId = id
-            print("Dialog loaded with ID \(dialogId)")
-        } else {
-            dialog?.createDialog("wat",
-                                 fileURL: fileURL,
-                                 failure: { [weak self] (error) in
-                                    self?.showAlert()
-                                    print(error)
-                },
-                                 success: { [weak self] (dialogId) in
-                                    userDefaults.setValue(dialogId, forKey: "dialog-id")
-                                    self?.dialogId = dialogId
-                                    print("New dialog created with ID \(dialogId)")
-                })
-        }
-    }
-
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-
-        let failure = { (error: NSError) in print(error) }
-        dialog!.converse(dialogId!,
-                        failure: failure) { [weak self] conversationResponse in
-                            // save conversation parameters
-                            self?.conversationID = conversationResponse.conversationID
-                            self?.clientID = conversationResponse.clientID
-                            
-                            // print message from Watson
-                            print(conversationResponse.response)
-        }
+        dialog?.createDialog("wat",
+                             fileURL: fileURL,
+                             failure: failure,
+                             success: success)
     }
 
     // MARK: - File Access

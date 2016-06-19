@@ -57,10 +57,7 @@ extension VisualRecognitionViewController: UIImagePickerControllerDelegate {
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         picker.dismissViewControllerAnimated(true, completion: nil)
 
-        if let
-            image = info[UIImagePickerControllerOriginalImage] as? UIImage,
-            imageUrl = info[UIImagePickerControllerReferenceURL] as? NSURL
-        {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.image = image
             analyzeImage(image)
         }
