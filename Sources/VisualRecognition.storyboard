@@ -23,20 +23,19 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRB-Na-Hj7">
                                 <rect key="frame" x="0.0" y="550" width="600" height="50"/>
-                                <color key="backgroundColor" red="0.027450980618596077" green="0.21176470816135406" blue="0.25882354378700256" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.19215686269999999" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="cpR-1E-0S5"/>
                                 </constraints>
                                 <state key="normal" title="Choose Photo">
-                                    <color key="titleColor" red="0.14901961386203766" green="0.54509806632995605" blue="0.82352942228317261" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="didPressChoosePhotoButton:" destination="V5z-tc-JOO" eventType="touchUpInside" id="z8R-BX-LbK"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.16862745579999999" blue="0.21176470820000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.1647058874" green="0.63137257099999999" blue="0.59607845540000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wxr-Fe-Adg" firstAttribute="top" secondItem="fVK-rS-aPb" secondAttribute="topMargin" id="Pum-tv-eXx"/>
                             <constraint firstItem="W1f-bX-7fX" firstAttribute="top" secondItem="wxr-Fe-Adg" secondAttribute="bottom" constant="50" id="RgY-ds-4zu"/>

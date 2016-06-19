@@ -16,4 +16,5 @@ class ServicesTableViewController: UITableViewController {
         // Workaround to remove empty cells
         self.tableView.tableFooterView = UIView()
     }
+
 }

@@ -14,7 +14,6 @@ extension UIViewController {
         MILAlertViewManager.sharedInstance.show(.Classic,
                                                 text: text ?? "Ups... Something went wrong",
                                                 inView: self.view,
-                                                toHeight: 64,
                                                 callback: callback)
     }
 
