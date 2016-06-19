@@ -14,6 +14,7 @@ class SpeechToTextViewController: UIViewController {
     // MARK: - Outlets
 
     @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var listeningLabel: UILabel!
     
     // MARK: - Properties
 
@@ -39,6 +40,8 @@ class SpeechToTextViewController: UIViewController {
     // MARK: - Actions
 
     @IBAction func didPressListeningButton(button: UIButton) {
+        listeningLabel.hidden = false
+
         let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
         let success = { [weak self] (result: [TranscriptionResult]) in
             if let transcription = result.last?.alternatives.last?.transcript {
@@ -53,5 +56,7 @@ class SpeechToTextViewController: UIViewController {
 
     @IBAction func didReleaseListeningButton(button: UIButton) {
         stopListening?()
+        
+        listeningLabel.hidden = true
     }
 }
