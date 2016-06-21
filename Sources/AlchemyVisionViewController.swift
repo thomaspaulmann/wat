@@ -30,10 +30,10 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
     // MARK: - Operations
 
     private func choosePhoto() {
-        if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary) {
+        if UIImagePickerController.isSourceTypeAvailable(.Camera) {
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
-            imagePicker.sourceType = .PhotoLibrary
+            imagePicker.sourceType = .Camera
             imagePicker.editing = false
 
             self.presentViewController(imagePicker, animated: true, completion: nil)
