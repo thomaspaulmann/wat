@@ -37,6 +37,8 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
             imagePicker.editing = false
 
             self.presentViewController(imagePicker, animated: true, completion: nil)
+        } else {
+            self.showAlert(withText: "No Camera available")
         }
     }
 
