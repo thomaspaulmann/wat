@@ -42,8 +42,15 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
         }
     }
 
-    private func analyzeImage(image: UIImage) {
-        // TBC: Alchemy Vision needs possibility to upload photo for analyzing
+    private func analyze(image: UIImage) {
+        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
+        let success = { (faceTags: FaceTags) -> Void in print(faceTags) }
+
+        if let imageData = UIImagePNGRepresentation(image) {
+            alchemyVision?.getRankedImageFaceTags(image: imageData,
+                                                  failure: failure,
+                                                  success: success)
+        }
     }
 
     // MARK: - Actions
@@ -61,9 +68,10 @@ extension AlchemyVisionViewController: UIImagePickerControllerDelegate {
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         picker.dismissViewControllerAnimated(true, completion: nil)
 
-        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+        if let
+            image = info[UIImagePickerControllerOriginalImage] as? UIImage{
             imageView.image = image
-            analyzeImage(image)
+            analyze(image)
         }
     }
 
