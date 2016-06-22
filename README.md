@@ -16,3 +16,8 @@
 - [ ] Tone Analyzer
 - [ ] Trade Off Analytics
 - [ ] Visual Recognition
+
+## More Todos
+- [ ] Documentation
+- [ ] GitHub Page
+- [ ] Use separate ViewController for choosing/taking Photo
