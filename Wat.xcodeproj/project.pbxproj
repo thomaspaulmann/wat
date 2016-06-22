@@ -59,6 +59,14 @@
 		BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */; };
 		BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */ = {isa = PBXBuildFile; fileRef = BE4E528C1D0C07D100F1AE8D /* pizza.xml */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
+		BE72FC961D1AE518005953DE /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */; };
+		BE72FC971D1AE518005953DE /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; };
+		BE72FC981D1AE518005953DE /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; };
+		BE72FC991D1AE518005953DE /* TradeoffAnalyticsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; };
+		BE72FC9A1D1AE5D6005953DE /* AlchemyDataNewsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
 		BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */; };
@@ -81,6 +89,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BE72FC9A1D1AE5D6005953DE /* AlchemyDataNewsV1.framework in CopyFiles */,
+				BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */,
+				BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */,
+				BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */,
 				BE0749101D07067400C74E8C /* Alamofire.framework in CopyFiles */,
 				BE0749111D07067400C74E8C /* Freddy.framework in CopyFiles */,
 				BE0749121D07067400C74E8C /* ObjectMapper.framework in CopyFiles */,
@@ -139,6 +151,10 @@
 		BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MLAlertView.swift"; sourceTree = "<group>"; };
 		BE4E528C1D0C07D100F1AE8D /* pizza.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pizza.xml; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
+		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
+		BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
 		BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertViewManager.swift; sourceTree = "<group>"; };
@@ -161,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE72FC981D1AE518005953DE /* DocumentConversionV1.framework in Frameworks */,
 				BE0749021D07060200C74E8C /* Freddy.framework in Frameworks */,
 				BE07490C1D07060200C74E8C /* VisualRecognitionV3.framework in Frameworks */,
 				BE0749091D07060200C74E8C /* Starscream.framework in Frameworks */,
@@ -169,11 +186,14 @@
 				BE0749071D07060200C74E8C /* RestKit.framework in Frameworks */,
 				BE0749001D07060200C74E8C /* AlchemyVisionV1.framework in Frameworks */,
 				BE0749011D07060200C74E8C /* DialogV1.framework in Frameworks */,
+				BE72FC991D1AE518005953DE /* TradeoffAnalyticsV1.framework in Frameworks */,
+				BE72FC961D1AE518005953DE /* AlchemyDataNewsV1.framework in Frameworks */,
 				BE0749041D07060200C74E8C /* NaturalLanguageClassifierV1.framework in Frameworks */,
 				BE0748FE1D07060200C74E8C /* Alamofire.framework in Frameworks */,
 				BE0749031D07060200C74E8C /* LanguageTranslationV2.framework in Frameworks */,
 				BE0749051D07060200C74E8C /* ObjectMapper.framework in Frameworks */,
 				BE07490B1D07060200C74E8C /* ToneAnalyzerV3.framework in Frameworks */,
+				BE72FC971D1AE518005953DE /* ConversationV1.framework in Frameworks */,
 				BE0749061D07060200C74E8C /* PersonalityInsightsV2.framework in Frameworks */,
 				BE0748FF1D07060200C74E8C /* AlchemyLanguageV1.framework in Frameworks */,
 			);
@@ -187,7 +207,10 @@
 			children = (
 				BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */,
 				BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */,
+				BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */,
+				BE72FC931D1AE518005953DE /* ConversationV1.framework */,
 				BE0748F21D07060200C74E8C /* DialogV1.framework */,
+				BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */,
 				BE0748F41D07060200C74E8C /* LanguageTranslationV2.framework */,
 				BE0748F51D07060200C74E8C /* NaturalLanguageClassifierV1.framework */,
 				BE0748F71D07060200C74E8C /* PersonalityInsightsV2.framework */,
@@ -195,6 +218,7 @@
 				BE0748FA1D07060200C74E8C /* Starscream.framework */,
 				BE0748FB1D07060200C74E8C /* TextToSpeechV1.framework */,
 				BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */,
+				BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */,
 				BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */,
 			);
 			name = Watson;
