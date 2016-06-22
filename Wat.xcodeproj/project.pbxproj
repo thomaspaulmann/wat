@@ -205,9 +205,9 @@
 		BE07490D1D07061B00C74E8C /* Watson */ = {
 			isa = PBXGroup;
 			children = (
+				BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */,
 				BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */,
 				BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */,
-				BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */,
 				BE72FC931D1AE518005953DE /* ConversationV1.framework */,
 				BE0748F21D07060200C74E8C /* DialogV1.framework */,
 				BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */,
@@ -215,7 +215,6 @@
 				BE0748F51D07060200C74E8C /* NaturalLanguageClassifierV1.framework */,
 				BE0748F71D07060200C74E8C /* PersonalityInsightsV2.framework */,
 				BE0748F91D07060200C74E8C /* SpeechToTextV1.framework */,
-				BE0748FA1D07060200C74E8C /* Starscream.framework */,
 				BE0748FB1D07060200C74E8C /* TextToSpeechV1.framework */,
 				BE0748FC1D07060200C74E8C /* ToneAnalyzerV3.framework */,
 				BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */,
@@ -231,6 +230,7 @@
 				BE0748F31D07060200C74E8C /* Freddy.framework */,
 				BE0748F61D07060200C74E8C /* ObjectMapper.framework */,
 				BE0748F81D07060200C74E8C /* RestKit.framework */,
+				BE0748FA1D07060200C74E8C /* Starscream.framework */,
 			);
 			name = ThirdParty;
 			sourceTree = "<group>";
