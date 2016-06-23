@@ -30,10 +30,10 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
     // MARK: - Operations
 
     private func choosePhoto() {
-        if UIImagePickerController.isSourceTypeAvailable(.Camera) {
+        if UIImagePickerController.isSourceTypeAvailable(.PhotoLibrary) {
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
-            imagePicker.sourceType = .Camera
+            imagePicker.sourceType = .PhotoLibrary
             imagePicker.editing = false
 
             self.presentViewController(imagePicker, animated: true, completion: nil)
@@ -43,11 +43,16 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
     }
 
     private func analyze(image: UIImage) {
-        let failure = { [weak self] (error: NSError) -> Void in self?.showAlert() }
-        let success = { (faceTags: FaceTags) -> Void in print(faceTags) }
+        let failure = { [weak self] (error: NSError) -> Void in
+            self?.showAlert()
+        }
+        let success = { (imageKeywords: ImageKeywords) -> Void in
+            print(imageKeywords)
+        }
 
-        if let imageData = UIImagePNGRepresentation(image) {
-            alchemyVision?.getRankedImageFaceTags(image: imageData,
+        if let imageData = UIImageJPEGRepresentation(image, 1) {
+            alchemyVision?.getRankedImageKeywords(image: imageData,
+                                                  forceShowAll: true,
                                                   failure: failure,
                                                   success: success)
         }
