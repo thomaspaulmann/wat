@@ -59,6 +59,7 @@
 		BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */; };
 		BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */ = {isa = PBXBuildFile; fileRef = BE4E528C1D0C07D100F1AE8D /* pizza.xml */; };
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
+		BE6F04E71D1C54F3009BBF8E /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */; };
 		BE72FC961D1AE518005953DE /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */; };
 		BE72FC971D1AE518005953DE /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; };
 		BE72FC981D1AE518005953DE /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; };
@@ -151,6 +152,7 @@
 		BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MLAlertView.swift"; sourceTree = "<group>"; };
 		BE4E528C1D0C07D100F1AE8D /* pizza.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pizza.xml; sourceTree = "<group>"; };
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
 		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
 		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */,
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
+				BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */,
 				BE4E52831D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift */,
 				BE30820B1D0D6DA8008A4A5F /* UIViewController+Keyboard.swift */,
 				BE4E52621D0BF48C00F1AE8D /* Services */,
@@ -516,6 +519,7 @@
 				BE4E527A1D0BF56000F1AE8D /* SpeechToTextViewController.swift in Sources */,
 				BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */,
 				BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */,
+				BE6F04E71D1C54F3009BBF8E /* ServiceTableViewCell.swift in Sources */,
 				BE4E52821D0BF59000F1AE8D /* VisualRecognitionViewController.swift in Sources */,
 				BE4E526C1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift in Sources */,
 				BE4E52841D0BFE6800F1AE8D /* UIViewController+MLAlertView.swift in Sources */,

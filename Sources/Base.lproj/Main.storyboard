@@ -38,16 +38,16 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.086274509803921567" green="0.13725490196078433" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="separatorColor" red="0.18104108514113926" green="0.29010836493493825" blue="0.42473958333333328" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="separatorColor" red="0.1803921568627451" green="0.29019607843137252" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="sE8-Ck-Giy">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="whK-lN-VsX" detailTextLabel="zTZ-qh-1jB" style="IBUITableViewCellStyleSubtitle" id="NZL-kN-PMp">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="whK-lN-VsX" detailTextLabel="zTZ-qh-1jB" style="IBUITableViewCellStyleSubtitle" id="NZL-kN-PMp" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NZL-kN-PMp" id="q2A-DE-WQl">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Alchemy Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="whK-lN-VsX">
@@ -72,11 +72,11 @@
                                             <segue destination="PCM-XM-7sQ" kind="show" identifier="ShowAlchemyLanguageScene" id="eO9-VI-cWl"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="MME-r9-TxV" detailTextLabel="kmp-jd-c2M" style="IBUITableViewCellStyleSubtitle" id="r9w-qO-q7B">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="MME-r9-TxV" detailTextLabel="kmp-jd-c2M" style="IBUITableViewCellStyleSubtitle" id="r9w-qO-q7B" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r9w-qO-q7B" id="qj5-7Z-yMj">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Alchemy Vision" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MME-r9-TxV">
@@ -86,8 +86,8 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detect Faces in Images with Gender, Age and more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmp-jd-c2M">
-                                                    <rect key="frame" x="15" y="25.5" width="267.5" height="13.5"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tag your Photos with Keywords" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kmp-jd-c2M">
+                                                    <rect key="frame" x="15" y="25.5" width="164.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <color key="textColor" red="0.69577323719999995" green="0.69577323719999995" blue="0.69577323719999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,11 +100,11 @@
                                             <segue destination="tsz-xU-ClY" kind="show" identifier="ShowAlchemyVisionScene" id="LXE-NM-afb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9qd-l0-gBz" detailTextLabel="7Al-er-rWD" style="IBUITableViewCellStyleSubtitle" id="r2c-kA-uXY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="9qd-l0-gBz" detailTextLabel="7Al-er-rWD" style="IBUITableViewCellStyleSubtitle" id="r2c-kA-uXY" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="88" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r2c-kA-uXY" id="R55-AL-znV">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Dialog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9qd-l0-gBz">
@@ -128,11 +128,11 @@
                                             <segue destination="gMh-FW-WdH" kind="show" identifier="ShowDialogScene" id="j5Y-1z-zM2"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="LEw-Ot-Is4" detailTextLabel="Jzg-mh-fNc" style="IBUITableViewCellStyleSubtitle" id="Dtr-tS-hkc">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="LEw-Ot-Is4" detailTextLabel="Jzg-mh-fNc" style="IBUITableViewCellStyleSubtitle" id="Dtr-tS-hkc" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="132" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dtr-tS-hkc" id="NaD-wc-ol0">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Language Translation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LEw-Ot-Is4">
@@ -156,11 +156,11 @@
                                             <segue destination="v1y-oe-3LH" kind="show" identifier="ShowLanguageTranslationScene" id="2WU-DP-TYY"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="9Gm-UF-8ms" detailTextLabel="Zy0-I9-65D" style="IBUITableViewCellStyleSubtitle" id="om8-hh-0gd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="9Gm-UF-8ms" detailTextLabel="Zy0-I9-65D" style="IBUITableViewCellStyleSubtitle" id="om8-hh-0gd" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="176" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="om8-hh-0gd" id="rxX-RF-NOd">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Natural Language Classifier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Gm-UF-8ms">
@@ -184,11 +184,11 @@
                                             <segue destination="usa-kf-QcT" kind="show" identifier="ShowNaturalLanguageClassifierScene" id="vEC-Qe-xsi"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="uzE-Wj-MAh" detailTextLabel="TX2-8o-XhL" style="IBUITableViewCellStyleSubtitle" id="J8x-cQ-hIP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="uzE-Wj-MAh" detailTextLabel="TX2-8o-XhL" style="IBUITableViewCellStyleSubtitle" id="J8x-cQ-hIP" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="220" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J8x-cQ-hIP" id="EWP-EX-nQr">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Personality Insights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uzE-Wj-MAh">
@@ -212,11 +212,11 @@
                                             <segue destination="LTH-2X-9Kt" kind="show" identifier="ShowPersonalityInsightsScene" id="Ka5-3x-Xlb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="mV5-X4-lcr" detailTextLabel="Vht-NR-tfw" style="IBUITableViewCellStyleSubtitle" id="Vjz-xF-ekH">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="mV5-X4-lcr" detailTextLabel="Vht-NR-tfw" style="IBUITableViewCellStyleSubtitle" id="Vjz-xF-ekH" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="264" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vjz-xF-ekH" id="Qsa-RE-GWI">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Speech to Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mV5-X4-lcr">
@@ -240,11 +240,11 @@
                                             <segue destination="Pqw-4j-fVW" kind="show" identifier="ShowSpeechToTextScene" id="ewi-v4-nbh"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="HZZ-yg-Sk8" detailTextLabel="kWG-X5-t84" style="IBUITableViewCellStyleSubtitle" id="GLK-Nq-GsA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="HZZ-yg-Sk8" detailTextLabel="kWG-X5-t84" style="IBUITableViewCellStyleSubtitle" id="GLK-Nq-GsA" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="308" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GLK-Nq-GsA" id="728-6Q-959">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Text to Speech" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HZZ-yg-Sk8">
@@ -268,11 +268,11 @@
                                             <segue destination="SPO-c8-GZd" kind="show" identifier="ShowTextToSpeechScene" id="GuF-yk-9NL"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="GRz-6D-iDh" detailTextLabel="lVV-bw-cpN" style="IBUITableViewCellStyleSubtitle" id="oES-Uh-aSi">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="GRz-6D-iDh" detailTextLabel="lVV-bw-cpN" style="IBUITableViewCellStyleSubtitle" id="oES-Uh-aSi" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="352" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oES-Uh-aSi" id="7FC-SS-gwT">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="ToneAnalyzer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GRz-6D-iDh">
@@ -296,11 +296,11 @@
                                             <segue destination="O2j-mD-8jK" kind="show" identifier="ShowToneAnalyzerScene" id="ZIu-Vb-3FU"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="aeR-zo-1I8" detailTextLabel="vF5-9w-u3I" style="IBUITableViewCellStyleSubtitle" id="1gc-8s-qeZ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" textLabel="aeR-zo-1I8" detailTextLabel="vF5-9w-u3I" style="IBUITableViewCellStyleSubtitle" id="1gc-8s-qeZ" customClass="ServiceTableViewCell" customModule="Wat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="396" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1gc-8s-qeZ" id="JUM-OV-c5X">
-                                            <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Visual Recognition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aeR-zo-1I8">
