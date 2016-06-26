@@ -42,7 +42,7 @@ internal extension UIImage {
 
         self.drawAtPoint(CGPointZero)
 
-        CGContextSetStrokeColorWithColor(context, UIColor(red:0.88, green:0.93, blue:0.00, alpha:1.00).CGColor)
+        CGContextSetStrokeColorWithColor(context, UIColor.accentColor().CGColor)
         CGContextSetLineWidth(context, 10.0);
         CGContextAddRect(context, rect)
         CGContextDrawPath(context, .Stroke)
