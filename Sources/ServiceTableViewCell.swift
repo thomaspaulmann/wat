@@ -12,7 +12,7 @@ class ServiceTableViewCell: UITableViewCell {
 
     // MARK: - Properties
 
-    private let selectedBackgroundColor = UIColor(red:0.15, green:0.19, blue:0.25, alpha: 1.00)
+    private let selectedBackgroundColor = UIColor.lightBackgroundColor()
 
     // MARK: - Selection
 

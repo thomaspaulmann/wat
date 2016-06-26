@@ -467,8 +467,8 @@
 				BE07491F1D0706FB00C74E8C /* Credentials.swift */,
 				BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */,
 				BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */,
-				BE6F04EA1D1D1443009BBF8E /* Extensions */,
 				BE4E52621D0BF48C00F1AE8D /* Services */,
+				BE6F04EA1D1D1443009BBF8E /* Extensions */,
 				BE1733951D1FF6AD003E8966 /* Views */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);

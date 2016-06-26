@@ -26,8 +26,12 @@ extension UIColor {
         return UIColor(red:0.09, green:0.14, blue:0.20, alpha:1.00)
     }
 
-    static func lighterBackgroundColor() -> UIColor {
+    static func lightBackgroundColor() -> UIColor {
         return UIColor(red:0.15, green:0.19, blue:0.25, alpha:1.00)
+    }
+
+    static func lighterBackgroundColor() -> UIColor {
+        return UIColor(red:0.24, green:0.37, blue:0.49, alpha:1.00)
     }
 
     // MARK: - Other Colors
