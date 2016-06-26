@@ -4,7 +4,7 @@
 
 - [ ] Alchemy Data News (Beta)
 - [ ] Alchemy Language
-- [ ] Alchemy Vision
+- [x] Alchemy Vision
 - [ ] Conversation (Beta)
 - [ ] Dialog
 - [ ] Document Conversation (Beta)
@@ -22,6 +22,7 @@
 - [ ] Documentation
 - [ ] GitHub Page
 - [ ] Use separate ViewController for choosing/taking Photo
+- [ ] Improve [Watson iOS SDK](https://github.com/watson-developer-cloud/ios-sdk) to easily upload Text and Images
 
 ## Notes
 
