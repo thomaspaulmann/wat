@@ -32,6 +32,14 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
         super.viewDidLoad()
 
         alchemyVision = AlchemyVision(apiKey: Credentials.alchemyApiKey)
+
+        // Setup Center Flow Layout
+        let layout = KTCenterFlowLayout()
+        layout.minimumInteritemSpacing = 10.0
+        layout.minimumLineSpacing = 10.0
+
+        // Setup Collection View for Image Keywords
+        keywordCollectionView.setCollectionViewLayout(layout, animated: false)
         keywordCollectionView.dataSource = self
         keywordCollectionView.delegate = self
         keywordCollectionView.registerNib(KeywordCollectionViewCell.reuseIdentifier())

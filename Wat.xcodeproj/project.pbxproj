@@ -43,6 +43,8 @@
 		BE1733981D1FF6CB003E8966 /* KeywordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */; };
 		BE1733991D1FF6CB003E8966 /* KeywordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */; };
 		BE17339B1D2000E0003E8966 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17339A1D2000E0003E8966 /* UICollectionView.swift */; };
+		BE1733A01D200ACE003E8966 /* KTCenterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17339F1D200ACE003E8966 /* KTCenterFlowLayout.m */; };
+		BE1733A21D200AD7003E8966 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1733A11D200AD7003E8966 /* LICENSE */; };
 		BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */; };
 		BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */; };
 		BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */; };
@@ -141,6 +143,10 @@
 		BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordCollectionViewCell.swift; sourceTree = "<group>"; };
 		BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeywordCollectionViewCell.xib; sourceTree = "<group>"; };
 		BE17339A1D2000E0003E8966 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		BE17339D1D200ACD003E8966 /* Wat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wat-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE17339E1D200ACE003E8966 /* KTCenterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCenterFlowLayout.h; sourceTree = "<group>"; };
+		BE17339F1D200ACE003E8966 /* KTCenterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCenterFlowLayout.m; sourceTree = "<group>"; };
+		BE1733A11D200AD7003E8966 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemyVisionViewController.swift; sourceTree = "<group>"; };
 		BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyVision.storyboard; sourceTree = "<group>"; };
 		BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dialog.storyboard; sourceTree = "<group>"; };
@@ -261,11 +267,23 @@
 		BE1733951D1FF6AD003E8966 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE17339C1D200ABB003E8966 /* KTCenterFlowLayout */,
 				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
 				BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */,
 				BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		BE17339C1D200ABB003E8966 /* KTCenterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BE1733A11D200AD7003E8966 /* LICENSE */,
+				BE17339E1D200ACE003E8966 /* KTCenterFlowLayout.h */,
+				BE17339F1D200ACE003E8966 /* KTCenterFlowLayout.m */,
+				BE17339D1D200ACD003E8966 /* Wat-Bridging-Header.h */,
+			);
+			name = KTCenterFlowLayout;
 			sourceTree = "<group>";
 		};
 		BE4E525A1D0BF42700F1AE8D /* Alchemy Vision */ = {
@@ -532,6 +550,7 @@
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
 				BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */,
 				BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */,
+				BE1733A21D200AD7003E8966 /* LICENSE in Resources */,
 				BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
 				BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */,
@@ -567,6 +586,7 @@
 				BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */,
 				BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */,
 				BE4E527C1D0BF56900F1AE8D /* TextToSpeechViewController.swift in Sources */,
+				BE1733A01D200ACE003E8966 /* KTCenterFlowLayout.m in Sources */,
 				BE17339B1D2000E0003E8966 /* UICollectionView.swift in Sources */,
 				BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */,
 			);
@@ -689,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -697,6 +718,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
 				PRODUCT_NAME = Wat;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Wat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -704,6 +727,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -712,6 +736,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
 				PRODUCT_NAME = Wat;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Wat-Bridging-Header.h";
 			};
 			name = Release;
 		};
