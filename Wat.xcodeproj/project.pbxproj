@@ -254,6 +254,7 @@
 		BE0749221D070F8000C74E8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE17339D1D200ACD003E8966 /* Wat-Bridging-Header.h */,
 				BEE865A21D06FDB300AB4240 /* Main.storyboard */,
 				BEE865A71D06FDB300AB4240 /* LaunchScreen.storyboard */,
 				BEE865A51D06FDB300AB4240 /* Assets.xcassets */,
@@ -270,7 +271,7 @@
 				BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */,
 				BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BE17339C1D200ABB003E8966 /* KTCenterFlowLayout */ = {
@@ -279,9 +280,8 @@
 				BE1733A11D200AD7003E8966 /* LICENSE */,
 				BE17339E1D200ACE003E8966 /* KTCenterFlowLayout.h */,
 				BE17339F1D200ACE003E8966 /* KTCenterFlowLayout.m */,
-				BE17339D1D200ACD003E8966 /* Wat-Bridging-Header.h */,
 			);
-			name = KTCenterFlowLayout;
+			path = KTCenterFlowLayout;
 			sourceTree = "<group>";
 		};
 		BE4E525A1D0BF42700F1AE8D /* Alchemy Vision */ = {
