@@ -18,6 +18,7 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
     // MARK: - Properties
 
     private var alchemyVision: AlchemyVision?
+    private let compressionQuality = CGFloat(0.7)
 
     // MARK: - Lifecycle
 
@@ -38,12 +39,12 @@ class AlchemyVisionViewController: UIViewController, UINavigationControllerDeleg
 
             self.presentViewController(imagePicker, animated: true, completion: nil)
         } else {
-            self.showAlert(withText: "No Camera available")
+            self.showAlert(withText: "No Photo Library available")
         }
     }
 
     private func analyze(image: UIImage) {
-        if let imageData = UIImageJPEGRepresentation(image, 0.7) {
+        if let imageData = UIImageJPEGRepresentation(image, compressionQuality) {
             alchemyVision?.getRankedImageKeywords(image: imageData,
                                                   forceShowAll: true,
                                                   failure: { (error: NSError) in print(error) },
