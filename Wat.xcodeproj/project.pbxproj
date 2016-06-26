@@ -44,7 +44,6 @@
 		BE1733991D1FF6CB003E8966 /* KeywordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */; };
 		BE17339B1D2000E0003E8966 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17339A1D2000E0003E8966 /* UICollectionView.swift */; };
 		BE1733A01D200ACE003E8966 /* KTCenterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE17339F1D200ACE003E8966 /* KTCenterFlowLayout.m */; };
-		BE1733A21D200AD7003E8966 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1733A11D200AD7003E8966 /* LICENSE */; };
 		BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */; };
 		BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */; };
 		BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */; };
@@ -75,7 +74,6 @@
 		BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AE1D0A8E5D0089F46E /* LICENSE */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
 		BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */; };
 		BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */; };
@@ -538,7 +536,6 @@
 			files = (
 				BE4E526E1D0BF52300F1AE8D /* LanguageTranslation.storyboard in Resources */,
 				BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */,
-				BE9812B51D0A8E5D0089F46E /* LICENSE in Resources */,
 				BE4E52801D0BF58600F1AE8D /* VisualRecognition.storyboard in Resources */,
 				BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */,
 				BE4E52701D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard in Resources */,
@@ -550,7 +547,6 @@
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
 				BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */,
 				BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */,
-				BE1733A21D200AD7003E8966 /* LICENSE in Resources */,
 				BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */,
 				BEE865A61D06FDB300AB4240 /* Assets.xcassets in Resources */,
 				BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */,
