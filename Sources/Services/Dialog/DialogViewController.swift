@@ -11,9 +11,6 @@ import DialogV1
 
 class DialogViewController: UIViewController {
 
-    // TODO: Extract hard coded strings
-    // TODO: Add chat interface for communication
-
     // MARK: - Properties
 
     private var dialog: Dialog?
