@@ -391,7 +391,7 @@
 				BE1733931D1FF25E003E8966 /* UIColor.swift */,
 				BE17339A1D2000E0003E8966 /* UICollectionView.swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BE9812AD1D0A8E5D0089F46E /* MILAlertView */ = {
