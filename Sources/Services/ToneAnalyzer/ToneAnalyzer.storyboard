@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tone Analyzer-->
@@ -13,12 +14,54 @@
                         <viewControllerLayoutGuide type="top" id="0Sg-SM-VAM"/>
                         <viewControllerLayoutGuide type="bottom" id="FCt-vm-39u"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kTl-iK-byz">
+                    <view key="view" contentMode="scaleToFill" id="MDO-an-adB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="JZi-wL-tso">
+                                <rect key="frame" x="20" y="0.0" width="560" height="550"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">I know the times are difficult! Our sales have been disappointing for the past three quarters for our data analytics product suite. We have a competitive data analytics product suite in the industry. But we need to do our job selling it!</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iky-Y9-icr">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.19215686269999999" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eoX-uc-bxF"/>
+                                </constraints>
+                                <state key="normal" title="Analyze">
+                                    <color key="titleColor" red="0.1215686275" green="0.73725490199999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressAnalyzeButton:" destination="M3O-r4-rxU" eventType="touchUpInside" id="ru3-w8-yyi"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JZi-wL-tso" firstAttribute="leading" secondItem="MDO-an-adB" secondAttribute="leadingMargin" id="DDs-n6-WkC"/>
+                            <constraint firstItem="FCt-vm-39u" firstAttribute="top" secondItem="iky-Y9-icr" secondAttribute="bottom" id="NZA-YE-VTT"/>
+                            <constraint firstItem="JZi-wL-tso" firstAttribute="trailing" secondItem="MDO-an-adB" secondAttribute="trailingMargin" id="Nfn-e7-tH5"/>
+                            <constraint firstItem="iky-Y9-icr" firstAttribute="leading" secondItem="MDO-an-adB" secondAttribute="leadingMargin" constant="-20" id="P1D-E1-tpZ"/>
+                            <constraint firstItem="JZi-wL-tso" firstAttribute="top" secondItem="MDO-an-adB" secondAttribute="topMargin" id="R06-Jv-u8M"/>
+                            <constraint firstItem="JZi-wL-tso" firstAttribute="top" secondItem="MDO-an-adB" secondAttribute="topMargin" id="Syn-yz-wFX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iky-Y9-icr" secondAttribute="trailing" constant="-20" id="ocN-Gd-UCF"/>
+                            <constraint firstItem="iky-Y9-icr" firstAttribute="top" secondItem="JZi-wL-tso" secondAttribute="bottom" id="uw5-xI-fIX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Syn-yz-wFX"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Tone Analyzer" id="f6F-fO-jrj"/>
+                    <connections>
+                        <outlet property="analyzeButtonBottomConstraint" destination="NZA-YE-VTT" id="ian-3Z-Xba"/>
+                        <outlet property="textView" destination="JZi-wL-tso" id="0mS-Um-MgW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmc-LJ-UJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
