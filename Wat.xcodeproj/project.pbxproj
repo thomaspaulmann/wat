@@ -40,6 +40,9 @@
 		BE07491E1D07067400C74E8C /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749201D0706FB00C74E8C /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07491F1D0706FB00C74E8C /* Credentials.swift */; };
 		BE1733941D1FF25E003E8966 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1733931D1FF25E003E8966 /* UIColor.swift */; };
+		BE1733981D1FF6CB003E8966 /* KeywordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */; };
+		BE1733991D1FF6CB003E8966 /* KeywordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */; };
+		BE17339B1D2000E0003E8966 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17339A1D2000E0003E8966 /* UICollectionView.swift */; };
 		BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */; };
 		BE4E52661D0BF4D000F1AE8D /* AlchemyVision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */; };
 		BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */; };
@@ -61,7 +64,7 @@
 		BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */; };
 		BE6F04E51D1C5115009BBF8E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F04E41D1C5115009BBF8E /* UIImage.swift */; };
 		BE6F04E71D1C54F3009BBF8E /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */; };
-		BE6F04E91D1D13F0009BBF8E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F04E81D1D13F0009BBF8E /* UILabel.swift */; };
+		BE6F04E91D1D13F0009BBF8E /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6F04E81D1D13F0009BBF8E /* UICollectionViewCell.swift */; };
 		BE72FC961D1AE518005953DE /* AlchemyDataNewsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */; };
 		BE72FC971D1AE518005953DE /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; };
 		BE72FC981D1AE518005953DE /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; };
@@ -135,6 +138,9 @@
 		BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
 		BE07491F1D0706FB00C74E8C /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		BE1733931D1FF25E003E8966 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeywordCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE17339A1D2000E0003E8966 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlchemyVisionViewController.swift; sourceTree = "<group>"; };
 		BE4E52651D0BF4D000F1AE8D /* AlchemyVision.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyVision.storyboard; sourceTree = "<group>"; };
 		BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dialog.storyboard; sourceTree = "<group>"; };
@@ -156,7 +162,7 @@
 		BE5594DB1D0839E600A76EB7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		BE6F04E41D1C5115009BBF8E /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
-		BE6F04E81D1D13F0009BBF8E /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		BE6F04E81D1D13F0009BBF8E /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
 		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
 		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
@@ -250,6 +256,16 @@
 				BEE865AA1D06FDB300AB4240 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1733951D1FF6AD003E8966 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
+				BE1733961D1FF6CB003E8966 /* KeywordCollectionViewCell.swift */,
+				BE1733971D1FF6CB003E8966 /* KeywordCollectionViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		BE4E525A1D0BF42700F1AE8D /* Alchemy Vision */ = {
@@ -355,8 +371,9 @@
 			children = (
 				BE4E52831D0BFE6800F1AE8D /* UIViewController.swift */,
 				BE6F04E41D1C5115009BBF8E /* UIImage.swift */,
-				BE6F04E81D1D13F0009BBF8E /* UILabel.swift */,
+				BE6F04E81D1D13F0009BBF8E /* UICollectionViewCell.swift */,
 				BE1733931D1FF25E003E8966 /* UIColor.swift */,
+				BE17339A1D2000E0003E8966 /* UICollectionView.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -427,7 +444,7 @@
 				BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */,
 				BE6F04EA1D1D1443009BBF8E /* Extensions */,
 				BE4E52621D0BF48C00F1AE8D /* Services */,
-				BE9812AD1D0A8E5D0089F46E /* MILAlertView */,
+				BE1733951D1FF6AD003E8966 /* Views */,
 				BE0749221D070F8000C74E8C /* Supporting Files */,
 			);
 			path = Sources;
@@ -508,6 +525,7 @@
 				BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */,
 				BE4E52701D0BF52E00F1AE8D /* NaturalLanguageClassifier.storyboard in Resources */,
 				BE4E52681D0BF50900F1AE8D /* Dialog.storyboard in Resources */,
+				BE1733991D1FF6CB003E8966 /* KeywordCollectionViewCell.xib in Resources */,
 				BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */,
 				BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */,
 				BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */,
@@ -538,7 +556,8 @@
 				BE4E526C1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift in Sources */,
 				BE4E52841D0BFE6800F1AE8D /* UIViewController.swift in Sources */,
 				BE4E52641D0BF4C500F1AE8D /* AlchemyVisionViewController.swift in Sources */,
-				BE6F04E91D1D13F0009BBF8E /* UILabel.swift in Sources */,
+				BE1733981D1FF6CB003E8966 /* KeywordCollectionViewCell.swift in Sources */,
+				BE6F04E91D1D13F0009BBF8E /* UICollectionViewCell.swift in Sources */,
 				BE4E52721D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift in Sources */,
 				BE5594DC1D0839E600A76EB7 /* ServicesTableViewController.swift in Sources */,
 				BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */,
@@ -548,6 +567,7 @@
 				BE02DD2F1D08A0730079075A /* ToneAnalyzerViewController.swift in Sources */,
 				BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */,
 				BE4E527C1D0BF56900F1AE8D /* TextToSpeechViewController.swift in Sources */,
+				BE17339B1D2000E0003E8966 /* UICollectionView.swift in Sources */,
 				BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

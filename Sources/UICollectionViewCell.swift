@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UILabel {
+extension UICollectionViewCell {
 
     @IBInspectable var cornerRadius: CGFloat {
         get { return layer.cornerRadius }

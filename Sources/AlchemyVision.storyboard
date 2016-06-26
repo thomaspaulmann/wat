@@ -34,20 +34,38 @@
                                     <action selector="didPressChoosePhotoButton:" destination="6RG-bV-Zbt" eventType="touchUpInside" id="dsA-eu-KvS"/>
                                 </connections>
                             </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ov6-GM-r3k">
+                                <rect key="frame" x="20" y="500" width="560" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PYL-o3-JYx"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gjT-2S-hlT">
+                                    <size key="itemSize" width="30" height="30"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.086274509799999996" green="0.13725490200000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="t93-td-2oT" firstAttribute="top" secondItem="bIb-rt-cbZ" secondAttribute="bottom" id="24a-3t-RVe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oTa-1H-zDA" secondAttribute="trailing" constant="-20" id="8dZ-Ew-87B"/>
+                            <constraint firstItem="bIb-rt-cbZ" firstAttribute="top" secondItem="ov6-GM-r3k" secondAttribute="bottom" id="X1r-P2-3ub"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bIb-rt-cbZ" secondAttribute="trailing" constant="-20" id="eLC-nB-T2g"/>
                             <constraint firstItem="bIb-rt-cbZ" firstAttribute="leading" secondItem="Ksj-nQ-Ur1" secondAttribute="leadingMargin" constant="-20" id="h0N-pT-10e"/>
                             <constraint firstItem="oTa-1H-zDA" firstAttribute="top" secondItem="Ksj-nQ-Ur1" secondAttribute="topMargin" id="ild-2h-D1Z"/>
                             <constraint firstItem="oTa-1H-zDA" firstAttribute="leading" secondItem="Ksj-nQ-Ur1" secondAttribute="leadingMargin" constant="-20" id="ipQ-oL-4EY"/>
+                            <constraint firstItem="ov6-GM-r3k" firstAttribute="leading" secondItem="Ksj-nQ-Ur1" secondAttribute="leadingMargin" id="jHK-oy-o2y"/>
+                            <constraint firstItem="ov6-GM-r3k" firstAttribute="trailing" secondItem="Ksj-nQ-Ur1" secondAttribute="trailingMargin" id="lJC-hg-ppG"/>
                             <constraint firstItem="t93-td-2oT" firstAttribute="top" secondItem="oTa-1H-zDA" secondAttribute="bottom" constant="50" id="ynl-vr-Whg"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="oTa-1H-zDA" id="8DC-CP-2Jy"/>
+                        <outlet property="keywordCollectionView" destination="ov6-GM-r3k" id="Lqh-UA-k6d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kd6-vg-072" userLabel="First Responder" sceneMemberID="firstResponder"/>
