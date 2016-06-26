@@ -344,7 +344,7 @@
                 <viewControllerPlaceholder storyboardName="AlchemyLanguage" id="PCM-XM-7sQ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPf-vv-0qI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="152"/>
+            <point key="canvasLocation" x="1462" y="149"/>
         </scene>
         <!--ToneAnalyzer-->
         <scene sceneID="Ql5-MJ-1PM">

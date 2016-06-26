@@ -74,12 +74,12 @@
 		BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BE95CA4C1D20178E00CA0712 /* AlchemyLanguage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */; };
 		BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */; };
 		BE9812B71D0A8E5D0089F46E /* MILAlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */; };
 		BE9812B81D0A8E5D0089F46E /* MILAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */; };
 		BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */; };
 		BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */; };
-		BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */; };
 		BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
 		BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */; };
@@ -171,13 +171,13 @@
 		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
 		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
 		BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = "<group>"; };
+		BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyLanguage.storyboard; sourceTree = "<group>"; };
 		BE9812AE1D0A8E5D0089F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9812AF1D0A8E5D0089F46E /* MILAlertViewImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAlertViewImages.xcassets; sourceTree = "<group>"; };
 		BE9812B01D0A8E5D0089F46E /* MILAlertViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertViewManager.swift; sourceTree = "<group>"; };
 		BE9812B21D0A8E5D0089F46E /* MILAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILAlertView.swift; sourceTree = "<group>"; };
 		BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILAlertView.xib; sourceTree = "<group>"; };
 		BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILFakeMessageAlertView.xib; sourceTree = "<group>"; };
-		BEAB3E481D08A13100E6C40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AlchemyLanguage.storyboard; sourceTree = "<group>"; };
 		BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToneAnalyzer.storyboard; sourceTree = "<group>"; };
 		BEE8659B1D06FDB300AB4240 /* Wat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -291,6 +291,7 @@
 				BE4E52631D0BF4C500F1AE8D /* AlchemyVisionViewController.swift */,
 			);
 			name = "Alchemy Vision";
+			path = AlchemyVision;
 			sourceTree = "<group>";
 		};
 		BE4E525B1D0BF43600F1AE8D /* Dialog */ = {
@@ -299,7 +300,7 @@
 				BE4E52671D0BF50900F1AE8D /* Dialog.storyboard */,
 				BE4E52691D0BF51100F1AE8D /* DialogViewController.swift */,
 			);
-			name = Dialog;
+			path = Dialog;
 			sourceTree = "<group>";
 		};
 		BE4E525C1D0BF44000F1AE8D /* Language Translation */ = {
@@ -309,6 +310,7 @@
 				BE4E526B1D0BF51C00F1AE8D /* LanguageTranslationViewController.swift */,
 			);
 			name = "Language Translation";
+			path = LanguageTranslation;
 			sourceTree = "<group>";
 		};
 		BE4E525D1D0BF45400F1AE8D /* Natural Language Classifier */ = {
@@ -318,6 +320,7 @@
 				BE4E52711D0BF53900F1AE8D /* NaturalLanguageClassifierViewController.swift */,
 			);
 			name = "Natural Language Classifier";
+			path = NaturalLanguageClassifier;
 			sourceTree = "<group>";
 		};
 		BE4E525E1D0BF45D00F1AE8D /* Personality Insights */ = {
@@ -327,6 +330,7 @@
 				BE4E52731D0BF54300F1AE8D /* PersonalityInsightsViewController.swift */,
 			);
 			name = "Personality Insights";
+			path = PersonalityInsights;
 			sourceTree = "<group>";
 		};
 		BE4E525F1D0BF46B00F1AE8D /* Speech to Text */ = {
@@ -336,6 +340,7 @@
 				BE4E52791D0BF56000F1AE8D /* SpeechToTextViewController.swift */,
 			);
 			name = "Speech to Text";
+			path = SpeechToText;
 			sourceTree = "<group>";
 		};
 		BE4E52601D0BF47700F1AE8D /* Text to Speech */ = {
@@ -345,6 +350,7 @@
 				BE4E527B1D0BF56900F1AE8D /* TextToSpeechViewController.swift */,
 			);
 			name = "Text to Speech";
+			path = TextToSpeech;
 			sourceTree = "<group>";
 		};
 		BE4E52611D0BF48500F1AE8D /* Visual Recognition */ = {
@@ -354,6 +360,7 @@
 				BE4E52811D0BF59000F1AE8D /* VisualRecognitionViewController.swift */,
 			);
 			name = "Visual Recognition";
+			path = VisualRecognition;
 			sourceTree = "<group>";
 		};
 		BE4E52621D0BF48C00F1AE8D /* Services */ = {
@@ -370,7 +377,7 @@
 				BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */,
 				BE4E52611D0BF48500F1AE8D /* Visual Recognition */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		BE4E52851D0C038A00F1AE8D /* Resources */ = {
@@ -418,10 +425,11 @@
 		BEAB3E4A1D08A14000E6C40F /* Alchemy Language */ = {
 			isa = PBXGroup;
 			children = (
-				BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */,
+				BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */,
 				BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */,
 			);
 			name = "Alchemy Language";
+			path = AlchemyLanguage;
 			sourceTree = "<group>";
 		};
 		BEAB3E4B1D08A14D00E6C40F /* Tone Analyzer */ = {
@@ -431,6 +439,7 @@
 				BE02DD2E1D08A0730079075A /* ToneAnalyzerViewController.swift */,
 			);
 			name = "Tone Analyzer";
+			path = ToneAnalyzer;
 			sourceTree = "<group>";
 		};
 		BEE865921D06FDB300AB4240 = {
@@ -543,8 +552,8 @@
 				BE1733991D1FF6CB003E8966 /* KeywordCollectionViewCell.xib in Resources */,
 				BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */,
 				BE9812B61D0A8E5D0089F46E /* MILAlertViewImages.xcassets in Resources */,
-				BEAB3E491D08A13100E6C40F /* AlchemyLanguage.storyboard in Resources */,
 				BEE865A91D06FDB300AB4240 /* LaunchScreen.storyboard in Resources */,
+				BE95CA4C1D20178E00CA0712 /* AlchemyLanguage.storyboard in Resources */,
 				BE4E52761D0BF54C00F1AE8D /* PersonalityInsights.storyboard in Resources */,
 				BE4E52781D0BF55400F1AE8D /* SpeechToText.storyboard in Resources */,
 				BE4E528D1D0C07D100F1AE8D /* pizza.xml in Resources */,
@@ -591,14 +600,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEAB3E471D08A13100E6C40F /* AlchemyLanguage.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEAB3E481D08A13100E6C40F /* Base */,
-			);
-			name = AlchemyLanguage.storyboard;
-			sourceTree = "<group>";
-		};
 		BEE865A21D06FDB300AB4240 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
