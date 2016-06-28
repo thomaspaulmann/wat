@@ -713,7 +713,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomaspaulmann.wat;
 				PRODUCT_NAME = Wat;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Wat-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -731,7 +731,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thomaspaulmann.ToneAnalyzer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomaspaulmann.wat;
 				PRODUCT_NAME = Wat;
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/Wat-Bridging-Header.h";
 			};
