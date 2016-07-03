@@ -1,0 +1,6 @@
+{
+  "name": "Wat",
+  "tagline": "",
+  "body": "# Wat\r\n\r\n## IBM Watson Services\r\n\r\n- [ ] Alchemy Data News (Beta)\r\n- [ ] Alchemy Language\r\n- [x] Alchemy Vision\r\n- [ ] Conversation (Beta)\r\n- [ ] Dialog\r\n- [ ] Document Conversation (Beta)\r\n- [x] Language Translation\r\n- [ ] Natural Language Classifier\r\n- [ ] Personality Insights\r\n- [x] Speech to Text\r\n- [x] Text to Speech\r\n- [ ] Tone Analyzer\r\n- [ ] Trade Off Analytics (Beta)\r\n- [ ] Visual Recognition\r\n\r\n## More Todos\r\n\r\n- [ ] Documentation\r\n- [ ] GitHub Page\r\n- [ ] Use separate ViewController for choosing/taking Photo\r\n- [ ] Improve [Watson iOS SDK](https://github.com/watson-developer-cloud/ios-sdk) to easily upload Text and Images\r\n\r\n## Notes\r\n\r\nAll the *Beta Services* are not yet part of the SDK. This Example references the Master Branch of the SDK to inlcudes the newest changes. Anyways, the *Beta Services* will be coded as soon as they are final and part of the next release.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
