@@ -1,4 +1,4 @@
-# Wat
+![logo](https://github.com/thomaspaulmann/Wat/raw/gh-pages/images/Header.png?raw=true "Wat")
 
 ## IBM Watson Services
 
