@@ -10,10 +10,9 @@ It's not a whole implementation of every little detail of the Services provided 
 As mentioned above, not every little detail is implemented. Here is an overview of the currently available Services and the their implementation status in WAT.
 
 ## IBM Watson Services
-
 - [ ] Alchemy Data News (Beta)
 - [ ] Alchemy Language
-- [x] Alchemy Vision
+- [x] Alchemy Vision (Deprecated, moved to Visual Recognition)
 - [ ] Conversation (Beta)
 - [ ] Dialog
 - [ ] Document Conversation (Beta)
@@ -26,9 +25,32 @@ As mentioned above, not every little detail is implemented. Here is an overview 
 - [ ] Trade Off Analytics (Beta)
 - [ ] Visual Recognition
 
-## Todos
+## Examples
+Here are some Screencasts of the Services.
 
+### Alchemy Vision
+[AlchemyVision](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/alchemy-vision.html) is an API that can analyze an image and return the objects, people, and text found within the image. AlchemyVision can enhance the way businesses make decisions by integrating image cognition. NOTE: The AlchemyVision service has been merged into the Visual Recognition service.
+
+![alchemy-vision](https://github.com/thomaspaulmann/Wat/raw/gh-pages/images/gifs/AlchemyVision.gif?raw=true "Alchemy Vision")
+
+### Language Translation
+The [Language Translation service](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/language-translation.html) translates and publishes content in multiple languages.
+
+![language-translation](https://github.com/thomaspaulmann/Wat/raw/gh-pages/images/gifs/LanguageTranslation.gif?raw=true "Language Translation")
+
+### Speech to Text
+The [Speech to Text service](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html) converts the human voice into the written word.
+
+![speech-to-text](https://github.com/thomaspaulmann/Wat/raw/gh-pages/images/gifs/SpeechToText.gif?raw=true "Speech to Text")
+
+### Text to Speech
+Designed for streaming low-latency synthesis of audio from written text. The [service](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/text-to-speech.html) synthesizes natural-sounding speech from input text in a variety of languages and voices that speak with appropriate cadence and intonation.
+
+![text-to-speech](https://github.com/thomaspaulmann/Wat/raw/gh-pages/images/gifs/TextToSpeech.gif?raw=true "Text to Speech")
+
+## Todos
 - [ ] Documentation
+- [ ] Use Visual Recognition instead of AlchemyVision
 - [ ] Improve [Watson iOS SDK](https://github.com/watson-developer-cloud/ios-sdk) to easily upload Text and Images
 
 # Some Notes
@@ -36,3 +58,6 @@ Some of you will be curiosed about the "Architecture" that is used in this proje
 
 # Contributing
 You're more than welcome to help! If you would like to contribute, need informations or anything else, feel free to contact me.
+
+# Special Thanks
+There is a lot of Inspiration that goes back to IBM and it's great team behind Watson! Thanks a lot for this easy to use, powerful and great tool!
