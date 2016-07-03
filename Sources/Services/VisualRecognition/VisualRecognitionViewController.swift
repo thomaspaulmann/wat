@@ -18,13 +18,14 @@ class VisualRecognitionViewController: UIViewController, UINavigationControllerD
     // MARK: - Properties
 
     private var visualRecogntion: VisualRecognition?
+    private let versionDate = "2016-06-11"
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        visualRecogntion = VisualRecognition(apiKey: Credentials.visualRecognitionApiKey, version: Credentials.visualRecognitionVersionDate)
+        visualRecogntion = VisualRecognition(apiKey: Credentials.visualRecognitionApiKey, version: versionDate)
     }
 
     private func choosePhoto() {

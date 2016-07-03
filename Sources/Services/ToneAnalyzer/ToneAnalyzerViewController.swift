@@ -19,13 +19,14 @@ class ToneAnalyzerViewController: UIViewController {
     // MARK: - Properties
 
     private var toneAnalyzer: ToneAnalyzer?
+    private let versionDate = "2016-06-11"
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        toneAnalyzer = ToneAnalyzer(username: Credentials.toneAnalyzerUsername, password: Credentials.toneAnalyzerPassword, version: Credentials.toneAnalyzerVersionDate)
+        toneAnalyzer = ToneAnalyzer(username: Credentials.toneAnalyzerUsername, password: Credentials.toneAnalyzerPassword, version: versionDate)
     }
 
     override func viewDidAppear(animated: Bool) {
