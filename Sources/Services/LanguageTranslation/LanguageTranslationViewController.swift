@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import LanguageTranslationV2
+import LanguageTranslatorV2
 
 class LanguageTranslationViewController: UIViewController {
 
@@ -19,14 +19,14 @@ class LanguageTranslationViewController: UIViewController {
 
     // MARK: - Properties
 
-    private var languageTranslation: LanguageTranslation?
+    private var languageTranslator: LanguageTranslator?
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        languageTranslation = LanguageTranslation(username: Credentials.languageTranslationUsername, password: Credentials.languageTranslationPassword)
+        languageTranslator = LanguageTranslator(username: Credentials.languageTranslationUsername, password: Credentials.languageTranslationPassword)
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -55,7 +55,7 @@ class LanguageTranslationViewController: UIViewController {
             self?.outputTextView.text = response.translations.last?.translation
         }
 
-        languageTranslation?.translate(text,
+        languageTranslator?.translate(text,
                                        source: "en",
                                        target: "fr",
                                        failure: failure,
