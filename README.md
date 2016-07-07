@@ -56,6 +56,15 @@ Designed for streaming low-latency synthesis of audio from written text. The [se
 # Some Notes
 Some of you will be curiosed about the "Architecture" that is used in this project. I wanted to keep it as simple as possible. It should be easy to understand, to follow and to reuse. That is also a reason, why I decied to use more storyboard. Every Service should be as accessible as possible. This is very important to transfer the code into your projects to get a quick start into the cognitive era.
 
+# Build
+Update the Dependencies and run Carthage for the first time:
+
+```
+  carthage update --platform iOS
+```
+
+After that, you are good to go and can build the Xcode project.
+
 # Contributing
 You're more than welcome to help! If you would like to contribute, need informations or anything else, feel free to contact me.
 
