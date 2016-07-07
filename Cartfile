@@ -1,1 +1,1 @@
-github "watson-developer-cloud/ios-sdk"
+github "watson-developer-cloud/ios-sdk" ~> 0.4.2
