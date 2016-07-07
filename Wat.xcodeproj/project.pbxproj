@@ -23,12 +23,10 @@
 		BE07490C1D07060200C74E8C /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0748FD1D07060200C74E8C /* VisualRecognitionV3.framework */; };
 		BE0749101D07067400C74E8C /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748EF1D07060200C74E8C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749111D07067400C74E8C /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F31D07060200C74E8C /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BE0749121D07067400C74E8C /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F61D07060200C74E8C /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749131D07067400C74E8C /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F81D07060200C74E8C /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749141D07067400C74E8C /* AlchemyLanguageV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749151D07067400C74E8C /* AlchemyVisionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749161D07067400C74E8C /* DialogV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F21D07060200C74E8C /* DialogV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BE0749171D07067400C74E8C /* LanguageTranslationV2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F41D07060200C74E8C /* LanguageTranslationV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749181D07067400C74E8C /* NaturalLanguageClassifierV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F51D07060200C74E8C /* NaturalLanguageClassifierV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE0749191D07067400C74E8C /* PersonalityInsightsV2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F71D07060200C74E8C /* PersonalityInsightsV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE07491A1D07067400C74E8C /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0748F91D07060200C74E8C /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -68,7 +66,6 @@
 		BE72FC981D1AE518005953DE /* DocumentConversionV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; };
 		BE72FC991D1AE518005953DE /* TradeoffAnalyticsV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; };
 		BE72FC9A1D1AE5D6005953DE /* AlchemyDataNewsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC931D1AE518005953DE /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BE95CA4C1D20178E00CA0712 /* AlchemyLanguage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */; };
@@ -79,6 +76,8 @@
 		BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */; };
 		BEA0082C1D2E51D5002FDD82 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0082B1D2E51D5002FDD82 /* LanguageTranslatorV2.framework */; };
 		BEA0082E1D2E522F002FDD82 /* ConversationV1Experimental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0082D1D2E522F002FDD82 /* ConversationV1Experimental.framework */; };
+		BEA0082F1D2E53F8002FDD82 /* ConversationV1Experimental.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEA0082D1D2E522F002FDD82 /* ConversationV1Experimental.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BEA008301D2E53F8002FDD82 /* LanguageTranslatorV2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEA0082B1D2E51D5002FDD82 /* LanguageTranslatorV2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
 		BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */; };
@@ -94,18 +93,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BEA0082F1D2E53F8002FDD82 /* ConversationV1Experimental.framework in CopyFiles */,
+				BEA008301D2E53F8002FDD82 /* LanguageTranslatorV2.framework in CopyFiles */,
 				BE72FC9A1D1AE5D6005953DE /* AlchemyDataNewsV1.framework in CopyFiles */,
-				BE72FC9B1D1AE5D6005953DE /* ConversationV1.framework in CopyFiles */,
 				BE72FC9C1D1AE5D6005953DE /* DocumentConversionV1.framework in CopyFiles */,
 				BE72FC9D1D1AE5D6005953DE /* TradeoffAnalyticsV1.framework in CopyFiles */,
 				BE0749101D07067400C74E8C /* Alamofire.framework in CopyFiles */,
 				BE0749111D07067400C74E8C /* Freddy.framework in CopyFiles */,
-				BE0749121D07067400C74E8C /* ObjectMapper.framework in CopyFiles */,
 				BE0749131D07067400C74E8C /* RestKit.framework in CopyFiles */,
 				BE0749141D07067400C74E8C /* AlchemyLanguageV1.framework in CopyFiles */,
 				BE0749151D07067400C74E8C /* AlchemyVisionV1.framework in CopyFiles */,
 				BE0749161D07067400C74E8C /* DialogV1.framework in CopyFiles */,
-				BE0749171D07067400C74E8C /* LanguageTranslationV2.framework in CopyFiles */,
 				BE0749181D07067400C74E8C /* NaturalLanguageClassifierV1.framework in CopyFiles */,
 				BE0749191D07067400C74E8C /* PersonalityInsightsV2.framework in CopyFiles */,
 				BE07491A1D07067400C74E8C /* SpeechToTextV1.framework in CopyFiles */,
@@ -125,9 +123,7 @@
 		BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyVisionV1.framework; path = Carthage/Build/iOS/AlchemyVisionV1.framework; sourceTree = "<group>"; };
 		BE0748F21D07060200C74E8C /* DialogV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DialogV1.framework; path = Carthage/Build/iOS/DialogV1.framework; sourceTree = "<group>"; };
 		BE0748F31D07060200C74E8C /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
-		BE0748F41D07060200C74E8C /* LanguageTranslationV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslationV2.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/LanguageTranslationV2.framework; sourceTree = "<absolute>"; };
 		BE0748F51D07060200C74E8C /* NaturalLanguageClassifierV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageClassifierV1.framework; path = Carthage/Build/iOS/NaturalLanguageClassifierV1.framework; sourceTree = "<group>"; };
-		BE0748F61D07060200C74E8C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<absolute>"; };
 		BE0748F71D07060200C74E8C /* PersonalityInsightsV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV2.framework; path = Carthage/Build/iOS/PersonalityInsightsV2.framework; sourceTree = "<group>"; };
 		BE0748F81D07060200C74E8C /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
 		BE0748F91D07060200C74E8C /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
@@ -167,7 +163,6 @@
 		BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		BE6F04E81D1D13F0009BBF8E /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
-		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<absolute>"; };
 		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
 		BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = "<group>"; };
 		BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyLanguage.storyboard; sourceTree = "<group>"; };
