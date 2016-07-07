@@ -18,14 +18,14 @@ class AlchemyLanguageViewController: UIViewController {
 
     // MARK: - Properties
 
-    private var alchemyLanguage: AlchemyLanguageV1?
+    private var alchemyLanguage: AlchemyLanguage?
 
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        alchemyLanguage = AlchemyLanguageV1(apiKey: Credentials.alchemyApiKey)
+        alchemyLanguage = AlchemyLanguage(apiKey: Credentials.alchemyApiKey)
     }
 
     override func viewDidAppear(animated: Bool) {
