@@ -78,6 +78,7 @@
 		BE9812B91D0A8E5D0089F46E /* MILAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */; };
 		BE9812BA1D0A8E5D0089F46E /* MILFakeMessageAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */; };
 		BEA0082C1D2E51D5002FDD82 /* LanguageTranslatorV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0082B1D2E51D5002FDD82 /* LanguageTranslatorV2.framework */; };
+		BEA0082E1D2E522F002FDD82 /* ConversationV1Experimental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0082D1D2E522F002FDD82 /* ConversationV1Experimental.framework */; };
 		BEAB3E4D1D08A16400E6C40F /* ToneAnalyzer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */; };
 		BEE8659F1D06FDB300AB4240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */; };
 		BEE865A11D06FDB300AB4240 /* AlchemyLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE865A01D06FDB300AB4240 /* AlchemyLanguageViewController.swift */; };
@@ -126,7 +127,7 @@
 		BE0748F31D07060200C74E8C /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
 		BE0748F41D07060200C74E8C /* LanguageTranslationV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslationV2.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/LanguageTranslationV2.framework; sourceTree = "<absolute>"; };
 		BE0748F51D07060200C74E8C /* NaturalLanguageClassifierV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageClassifierV1.framework; path = Carthage/Build/iOS/NaturalLanguageClassifierV1.framework; sourceTree = "<group>"; };
-		BE0748F61D07060200C74E8C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		BE0748F61D07060200C74E8C /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<absolute>"; };
 		BE0748F71D07060200C74E8C /* PersonalityInsightsV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersonalityInsightsV2.framework; path = Carthage/Build/iOS/PersonalityInsightsV2.framework; sourceTree = "<group>"; };
 		BE0748F81D07060200C74E8C /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
 		BE0748F91D07060200C74E8C /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
@@ -166,7 +167,7 @@
 		BE6F04E61D1C54F3009BBF8E /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		BE6F04E81D1D13F0009BBF8E /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlchemyDataNewsV1.framework; path = Carthage/Build/iOS/AlchemyDataNewsV1.framework; sourceTree = "<group>"; };
-		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<group>"; };
+		BE72FC931D1AE518005953DE /* ConversationV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1.framework; path = /Users/Mann/Documents/Code/Audi/Wat/Carthage/Build/iOS/ConversationV1.framework; sourceTree = "<absolute>"; };
 		BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DocumentConversionV1.framework; path = Carthage/Build/iOS/DocumentConversionV1.framework; sourceTree = "<group>"; };
 		BE72FC951D1AE518005953DE /* TradeoffAnalyticsV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TradeoffAnalyticsV1.framework; path = Carthage/Build/iOS/TradeoffAnalyticsV1.framework; sourceTree = "<group>"; };
 		BE95CA4B1D20178E00CA0712 /* AlchemyLanguage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlchemyLanguage.storyboard; sourceTree = "<group>"; };
@@ -177,6 +178,7 @@
 		BE9812B31D0A8E5D0089F46E /* MILAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILAlertView.xib; sourceTree = "<group>"; };
 		BE9812B41D0A8E5D0089F46E /* MILFakeMessageAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILFakeMessageAlertView.xib; sourceTree = "<group>"; };
 		BEA0082B1D2E51D5002FDD82 /* LanguageTranslatorV2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LanguageTranslatorV2.framework; path = Carthage/Build/iOS/LanguageTranslatorV2.framework; sourceTree = "<group>"; };
+		BEA0082D1D2E522F002FDD82 /* ConversationV1Experimental.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConversationV1Experimental.framework; path = Carthage/Build/iOS/ConversationV1Experimental.framework; sourceTree = "<group>"; };
 		BEAB3E4C1D08A16400E6C40F /* ToneAnalyzer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToneAnalyzer.storyboard; sourceTree = "<group>"; };
 		BEE8659B1D06FDB300AB4240 /* Wat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE8659E1D06FDB300AB4240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				BE72FC961D1AE518005953DE /* AlchemyDataNewsV1.framework in Frameworks */,
 				BE0749041D07060200C74E8C /* NaturalLanguageClassifierV1.framework in Frameworks */,
 				BE0748FE1D07060200C74E8C /* Alamofire.framework in Frameworks */,
+				BEA0082E1D2E522F002FDD82 /* ConversationV1Experimental.framework in Frameworks */,
 				BE07490B1D07060200C74E8C /* ToneAnalyzerV3.framework in Frameworks */,
 				BE0749061D07060200C74E8C /* PersonalityInsightsV2.framework in Frameworks */,
 				BE0748FF1D07060200C74E8C /* AlchemyLanguageV1.framework in Frameworks */,
@@ -221,7 +224,7 @@
 				BE72FC921D1AE518005953DE /* AlchemyDataNewsV1.framework */,
 				BE0748F01D07060200C74E8C /* AlchemyLanguageV1.framework */,
 				BE0748F11D07060200C74E8C /* AlchemyVisionV1.framework */,
-				BE72FC931D1AE518005953DE /* ConversationV1.framework */,
+				BEA0082D1D2E522F002FDD82 /* ConversationV1Experimental.framework */,
 				BE0748F21D07060200C74E8C /* DialogV1.framework */,
 				BE72FC941D1AE518005953DE /* DocumentConversionV1.framework */,
 				BEA0082B1D2E51D5002FDD82 /* LanguageTranslatorV2.framework */,
@@ -241,7 +244,6 @@
 			children = (
 				BE0748EF1D07060200C74E8C /* Alamofire.framework */,
 				BE0748F31D07060200C74E8C /* Freddy.framework */,
-				BE0748F61D07060200C74E8C /* ObjectMapper.framework */,
 				BE0748F81D07060200C74E8C /* RestKit.framework */,
 				BE0748FA1D07060200C74E8C /* Starscream.framework */,
 			);
