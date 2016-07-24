@@ -1,0 +1,12 @@
+language: objective-c
+osx_image: xcode7.3
+
+branches:
+  only:
+    - master
+
+before_script:
+  - carthage update --platform iOS
+
+notifications:
+  email: false
