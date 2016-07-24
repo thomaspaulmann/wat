@@ -9,6 +9,8 @@ It's not a whole implementation of every little detail of the Services provided 
 # Current Status
 As mentioned above, not every little detail is implemented. Here is an overview of the currently available Services and the their implementation status in WAT.
 
+[![Build Status](https://travis-ci.org/thomaspaulmann/wat.svg?branch=master)](https://travis-ci.org/thomaspaulmann/wat)
+
 ## IBM Watson Services
 - [ ] Alchemy Data News (Beta)
 - [ ] Alchemy Language
